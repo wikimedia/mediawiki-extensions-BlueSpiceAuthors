@@ -1,5 +1,5 @@
 {
-	"name": "Authors",
+	"name": "BlueSpiceAuthors",
 	"version": "2.27.1-alpha",
 	"url": "https://help.bluespice.com/index.php/Authors",
 	"author": [
@@ -9,7 +9,7 @@
 	"descriptionmsg": "bs-authors-desc",
 	"type": "bluespice",
 	"bsgExtensions": {
-		"Authors": {
+		"BlueSpiceAuthors": {
 			"className": "Authors",
 			"extPath": "/BlueSpiceAuthors"
 		}
