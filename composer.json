@@ -1,4 +1,11 @@
 {
+	"name": "mediawiki/blue-spice-authors",
+	"type": "mediawiki-extension",
+	"description": "Displays the profile picture for authors of a page",
+	"license": "GPL-3.0",
+	"require": {
+		"composer/installers": "~1.0"
+	},
 	"autoload" : {
 		"psr-4": {
 			"BlueSpice\\Authors\\" : "src"
