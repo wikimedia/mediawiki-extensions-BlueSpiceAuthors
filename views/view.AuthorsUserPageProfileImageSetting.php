@@ -45,6 +45,17 @@ class ViewAuthorsUserPageProfileImageSetting extends ViewBaseElement {
 	 */
 	public function  execute( $params = false ) {
 		$this->initFields();
+		$params = [
+			\BlueSpice\DynamicFileDispatcher\Params::MODULE => 'userprofileimage',
+			'username' =>  $this->oUser->getName(),
+		];
+		$dfdUrlBuilder = \MediaWiki\MediaWikiServices::getInstance()->getService(
+			'DynamicFileDispatcherUrlBuilder'
+		);
+		$this->sImagePath = $dfdUrlBuilder->build(
+			new \BlueSpice\DynamicFileDispatcher\Params( $params )
+		);
+
 		Hooks::run( 'BsAuthorPageProfileImageAfterInitFields', array( $this, $this->oUser ) );
 
 		$aOut = array();
