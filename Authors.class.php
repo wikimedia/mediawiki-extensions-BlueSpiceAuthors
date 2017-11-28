@@ -50,11 +50,6 @@ class Authors extends BsExtensionMW {
 		$this->setHook( 'BS:UserPageSettings', 'onUserPageSettings' );
 		$this->setHook( 'PageContentSave' );
 
-		BsConfig::registerVar( 'MW::Authors::Blacklist',   array( 'MediaWiki default' ), BsConfig::LEVEL_PRIVATE|BsConfig::TYPE_ARRAY_STRING );
-		BsConfig::registerVar( 'MW::Authors::Limit',       10,                           BsConfig::LEVEL_PUBLIC|BsConfig::TYPE_INT, 'bs-authors-pref-limit', 'int' );
-		BsConfig::registerVar( 'MW::Authors::MoreImage',   'more-users_v2.png',          BsConfig::LEVEL_PRIVATE|BsConfig::TYPE_STRING );
-		BsConfig::registerVar( 'MW::Authors::Show',        true,                         BsConfig::LEVEL_PUBLIC|BsConfig::TYPE_BOOL, 'bs-authors-pref-show', 'toggle' );
-
 		$this->mCore->registerBehaviorSwitch( 'bs_noauthors' );
 
 		wfProfileOut( 'BS::'.__METHOD__ );
@@ -132,10 +127,12 @@ class Authors extends BsExtensionMW {
 	private function getAuthorsViewForAfterContent( $oSkin, &$aDetails ) {
 		$oTitle = $oSkin->getTitle();
 
+		$config = \MediaWiki\MediaWikiServices::getInstance()->getConfigFactory()->makeConfig( 'bsg' );
+
 		//Read in config variables
-		$iLimit = BsConfig::get( 'MW::Authors::Limit' );
-		$aBlacklist = BsConfig::get( 'MW::Authors::Blacklist' );
-		$sMoreImage = BsConfig::get( 'MW::Authors::MoreImage' );
+		$iLimit = $config->get( 'AuthorsLimit' );
+		$aBlacklist = $config->get( 'AuthorsBlacklist' );
+		$sMoreImage = $config->get( 'AuthorsMoreImage' );
 
 		$sPrintable = $oSkin->getRequest()->getVal( 'printable', 'no' );
 		$iArticleId = $oTitle->getArticleID();
@@ -278,7 +275,8 @@ class Authors extends BsExtensionMW {
 	 * @return bool
 	 */
 	private function checkContext() {
-		if ( BsConfig::get( 'MW::Authors::Show' ) === false ) {
+		$config = \MediaWiki\MediaWikiServices::getInstance()->getConfigFactory()->makeConfig( 'bsg' );
+		if ( $config->get( 'AuthorsShow' ) === false ) {
 			return false;
 		}
 

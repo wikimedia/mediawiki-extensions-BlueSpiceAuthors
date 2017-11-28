@@ -9,10 +9,18 @@
 	],
 	"descriptionmsg": "bs-authors-desc",
 	"type": "bluespice",
-	"bsgExtensions": {
-		"BlueSpiceAuthors": {
-			"className": "Authors",
-			"extPath": "/BlueSpiceAuthors"
+	"attributes": {
+		"BlueSpiceFoundation": {
+			"Extensions": {
+				"BlueSpiceAuthors": {
+					"className": "Authors",
+					"extPath": "/BlueSpiceAuthors",
+					"configDefinitions": {
+						"AuthorsLimit": "\\BlueSpice\\Authors\\ConfigDefinition\\AuthorsLimit::getInstance",
+						"AuthorsShow": "\\BlueSpice\\Authors\\ConfigDefinition\\AuthorsShow::getInstance"
+					}
+				}
+			}
 		}
 	},
 	"MessagesDirs": {
@@ -22,6 +30,27 @@
 	},
 	"ExtensionMessagesFiles": {
 		"AuthorsMagic": "languages/Authors.i18n.magic.php"
+	},
+	"config_prefix": "bsg",
+	"config": {
+		"AuthorsBlacklist": {
+			"value": [
+				"MediaWiki default"
+			]
+		},
+		"AuthorsLimit": {
+			"value": 10,
+			"descriptionmsg": "bs-authors-pref-limit",
+			"public": true
+		},
+		"AuthorsMoreImage": {
+			"value": "more-users_v2.png"
+		},
+		"AuthorsShow": {
+			"value": true,
+			"descriptionmsg": "bs-authors-pref-show",
+			"public": true
+		}
 	},
 	"AutoloadClasses": {
 		"Authors": "Authors.class.php",
@@ -39,5 +68,5 @@
 		"localBasePath": "resources",
 		"remoteExtPath": "BlueSpiceAuthors/resources"
 	},
-	"manifest_version": 1
+	"manifest_version": 2
 }
