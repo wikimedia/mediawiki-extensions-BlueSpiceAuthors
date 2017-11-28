@@ -50,7 +50,7 @@ class ViewAuthorsUserPageProfileImageSetting extends ViewBaseElement {
 			'username' =>  $this->oUser->getName(),
 		];
 		$dfdUrlBuilder = \MediaWiki\MediaWikiServices::getInstance()->getService(
-			'DynamicFileDispatcherUrlBuilder'
+			'BSDynamicFileDispatcherUrlBuilder'
 		);
 		$this->sImagePath = $dfdUrlBuilder->build(
 			new \BlueSpice\DynamicFileDispatcher\Params( $params )
