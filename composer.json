@@ -2,7 +2,7 @@
 	"name": "mediawiki/blue-spice-authors",
 	"type": "mediawiki-extension",
 	"description": "Displays the profile picture for authors of a page",
-	"license": "GPL-3.0",
+	"license": "GPL-3.0-only",
 	"require": {
 		"composer/installers": "~1.0"
 	},
