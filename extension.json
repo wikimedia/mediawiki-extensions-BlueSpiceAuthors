@@ -60,8 +60,7 @@
 	"load_composer_autoloader" : true,
 	"ResourceModules": {
 		"ext.bluespice.authors.styles": {
-			"styles": "bluespice.authors.css",
-			"position": "top"
+			"styles": "bluespice.authors.css"
 		}
 	},
 	"ResourceFileModulePaths": {
