@@ -14,5 +14,7 @@
 	"bs-authors-show-all-authors": "Weitere Autoren vorhanden",
 	"bs-authors-pref-limit": "Maximale Anzahl angezeigter Autoren:",
 	"bs-authors-pref-show": "Autoren anzeigen",
-	"bs-authors-switch-description": "Autoren werden auf dieser Seite nicht angezeigt."
+	"bs-authors-switch-description": "Autoren werden auf dieser Seite nicht angezeigt.",
+	"bs-authors-navigation-link-title": "Autoren dieser Seite",
+	"bs-authors-navigation-link-text": "Autoren"
 }

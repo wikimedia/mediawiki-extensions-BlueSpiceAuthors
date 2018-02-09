@@ -37,7 +37,7 @@ class ViewAuthors extends ViewBaseElement {
 		if ( empty( $this->_mItems ) ) {
 			return '';
 		}
-		
+
 		$sAuthorsList = '';
 		$iAuthors = count( $this->_mItems );
 		$lastIndex = $iAuthors - 1;
@@ -49,9 +49,9 @@ class ViewAuthors extends ViewBaseElement {
 			if ($i == $lastIndex ) {
 				$oUserProfileImageView->setOption( 'classes', array('bs-authors-lasteditor') );
 			}
-			
+
 			$sAuthorsList .= $oUserProfileImageView->execute();
-			
+
 			//Reset classes to prevent wrong styling in other places
 			$oUserProfileImageView->setOption( 'classes', array() );
 		}
