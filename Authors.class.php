@@ -42,7 +42,6 @@ class Authors extends BsExtensionMW {
 	 * Initialization of Authors extension
 	 */
 	protected function initExt() {
-		wfProfileIn( 'BS::'.__METHOD__ );
 		// Hooks
 		$this->setHook( 'SkinTemplateOutputPageBeforeExec' );
 		$this->setHook( 'BeforePageDisplay' );
@@ -51,8 +50,6 @@ class Authors extends BsExtensionMW {
 		$this->setHook( 'PageContentSave' );
 
 		$this->mCore->registerBehaviorSwitch( 'bs_noauthors' );
-
-		wfProfileOut( 'BS::'.__METHOD__ );
 	}
 
 	/**
