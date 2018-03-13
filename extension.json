@@ -20,6 +20,9 @@
 						"AuthorsShow": "\\BlueSpice\\Authors\\ConfigDefinition\\AuthorsShow::getInstance"
 					}
 				}
+			},
+			"GraphicalListRegistry": {
+				"authors-list": "bs.authors.GraphicalListFactory"
 			}
 		}
 	},
@@ -57,10 +60,32 @@
 		"ViewAuthors": "views/view.Authors.php",
 		"ViewAuthorsUserPageProfileImageSetting": "views/view.AuthorsUserPageProfileImageSetting.php"
 	},
+	"Hooks": {
+		"SkinTemplateOutputPageBeforeExec": "\\BlueSpice\\Authors\\Hook\\SkinTemplateOutputPageBeforeExec\\AddAuthors::callback",
+		"BeforePageDisplay": [
+			"\\BlueSpice\\Authors\\Hook\\BeforePageDisplay\\AddModules::callback",
+			"\\BlueSpice\\Authors\\Hook\\BeforePageDisplay\\FetchAuthors::callback"
+		]
+	},
 	"load_composer_autoloader" : true,
 	"ResourceModules": {
-		"ext.bluespice.authors.styles": {
-			"styles": "bluespice.authors.css"
+		"ext.bluespice.authors": {
+			"styles": [
+				"styles/bluespice.authors.less"
+			],
+			"scripts": [
+				"js/bluespice.authors.GraphicalList.js"
+			],
+			"messages": [
+				"bs-authors-graphicallist-title-originator",
+				"bs-authors-graphicallist-title-authors"
+			],
+			"dependencies": [
+				"ext.bluespice"
+			],
+			"target": [
+				"deskop", "mobile"
+			]
 		}
 	},
 	"ResourceFileModulePaths": {

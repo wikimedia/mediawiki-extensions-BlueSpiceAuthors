@@ -43,8 +43,6 @@ class Authors extends BsExtensionMW {
 	 */
 	protected function initExt() {
 		// Hooks
-		$this->setHook( 'SkinTemplateOutputPageBeforeExec' );
-		$this->setHook( 'BeforePageDisplay' );
 		$this->setHook( 'BSInsertMagicAjaxGetData' );
 		$this->setHook( 'BS:UserPageSettings', 'onUserPageSettings' );
 		$this->setHook( 'PageContentSave' );
@@ -74,19 +72,6 @@ class Authors extends BsExtensionMW {
 	}
 
 	/**
-	 * Hook-Handler for MediaWiki 'BeforePageDisplay' hook. Sets context if needed.
-	 * @param OutputPage $oOutputPage
-	 * @param Skin $oSkin
-	 * @return bool
-	 */
-	public function onBeforePageDisplay( &$oOutputPage, &$oSkin ) {
-		if ( $this->checkContext() === false ) return true;
-		$oOutputPage->addModuleStyles('ext.bluespice.authors.styles');
-
-		return true;
-	}
-
-	/**
 	 * Hook-handler for 'BS:UserPageSettings'
 	 * @param User $oUser The current MediaWiki User object
 	 * @param Title $oTitle The current MediaWiki Title object
@@ -101,183 +86,16 @@ class Authors extends BsExtensionMW {
 	}
 
 	/**
-	 * Hook-Handler for 'SkinTemplateOutputPageBeforeExec'. Creates the authors list below an article.
-	 * @param SkinTemplate $sktemplate a collection of views. Add the view that needs to be displayed
-	 * @param BaseTemplate $tpl currently logged in user. Not used in this context.
-	 * @return bool always true
-	 */
-	public function onSkinTemplateOutputPageBeforeExec( &$sktemplate, &$tpl ) {
-		if ( $this->checkContext() === false ) {
-			return true;
-		}
-
-		$aDetails = array();
-		$oAuthorsView = $this->getAuthorsViewForAfterContent( $sktemplate, $aDetails );
-		$tpl->data['bs_dataAfterContent']['bs-authors'] = array(
-			'position' => 10,
-			'label' => wfMessage( 'bs-authors-title', $aDetails['count'], $aDetails['username'] )->text(),
-			'content' => $oAuthorsView
-		);
-		return true;
-	}
-
-	private function getAuthorsViewForAfterContent( $oSkin, &$aDetails ) {
-		$oTitle = $oSkin->getTitle();
-
-		$config = \MediaWiki\MediaWikiServices::getInstance()->getConfigFactory()->makeConfig( 'bsg' );
-
-		//Read in config variables
-		$iLimit = $config->get( 'AuthorsLimit' );
-		$aBlacklist = $config->get( 'AuthorsBlacklist' );
-		$sMoreImage = $config->get( 'AuthorsMoreImage' );
-
-		$sPrintable = $oSkin->getRequest()->getVal( 'printable', 'no' );
-		$iArticleId = $oTitle->getArticleID();
-
-		$sKey = BsCacheHelper::getCacheKey( 'BlueSpice', 'Authors', $iArticleId );
-		$aData = BsCacheHelper::get( $sKey );
-
-		if ( $aData !== false ) {
-			wfDebugLog( 'BsMemcached', __CLASS__ . ': Fetched AuthorsView and Details from cache' );
-			$oAuthorsView = $aData['view'];
-			$aDetails = $aData['details'];
-		} else {
-			wfDebugLog( 'BsMemcached', __CLASS__ . ': Fetching AuthorsView and Details from DB' );
-			//HINT: Maybe we want to use MW interface Article::getContributors() to have better caching
-			//HINT2: Check if available in MW 1.17+
-			// SW: There is still no caching in WikiPage::getContributors()! 17.07.2014
-			$dbr = wfGetDB( DB_REPLICA );
-			$res = $dbr->select(
-					array( 'revision' ), array( 'rev_user_text', 'MAX(rev_timestamp) AS ts' ), array( 'rev_page' => $iArticleId ), __METHOD__, array(
-				'GROUP BY' => 'rev_user_text',
-				'ORDER BY' => 'ts DESC'
-					)
-			);
-
-			if ( $res->numRows() == 0 ) {
-				return true;
-			}
-
-			$oAuthorsView = new ViewAuthors();
-			if ( $sPrintable == 'yes' ) {
-				$oAuthorsView->setOption( 'print', true );
-			}
-
-			$aUserNames = array();
-			foreach ( $res as $row ) {
-				$aUserNames[] = $row->rev_user_text;
-			}
-
-			$iCount = count( $aUserNames );
-			$aDetails['count'] = $iCount;
-
-			$sOriginatorUserName = $oTitle->getFirstRevision()->getUserText();
-			$sOriginatorUserName = $this->checkOriginatorForBlacklist(
-				$sOriginatorUserName, $oTitle->getFirstRevision(), $aBlacklist
-			);
-
-			if ( $iCount > 1 ) {
-				array_unshift( $aUserNames, $sOriginatorUserName );
-				$iCount++;
-			}
-
-			$bAddMore = false;
-			if ( $iCount > $iLimit ) {
-				$bAddMore = true;
-			}
-
-			$i = 0;
-			$iItems = 0;
-			$aDetails['username'] = '';
-			while ( $i < $iCount ) {
-				if ( $iItems > $iLimit ) {
-					break;
-				}
-				$sUserName = $aUserNames[$i];
-
-				if ( User::isIP( $sUserName ) ) {
-					unset( $aUserNames[$i] );
-					$i++;
-					continue;
-				}
-
-				$oAuthorUser = User::newFromName( $sUserName );
-
-				if ( !is_object( $oAuthorUser ) || in_array( $oAuthorUser->getName(), $aBlacklist ) ) {
-					unset( $aUserNames[$i] );
-					$i++;
-					continue;
-				}
-				$aDetails['username'] = $oAuthorUser->getName();
-
-				$oUserMiniProfileView = BsCore::getInstance()->getUserMiniProfile(
-					$oAuthorUser
-				);
-				if ( $sPrintable == 'yes' ) {
-					$oUserMiniProfileView->setOption( 'print', true );
-				}
-
-				$iItems++;
-				$i++;
-				$oAuthorsView->addItem( $oUserMiniProfileView );
-			}
-
-			if ( $bAddMore === true ) {
-				$oMoreAuthorsView = BsCore::getInstance()->getUserMiniProfile(
-					new User()
-				);
-				$oMoreAuthorsView->setOption( 'userdisplayname', wfMessage( 'bs-authors-show-all-authors' )->plain() );
-				$oMoreAuthorsView->setOption( 'userimagesrc', $this->getImagePath( true ) . '/' . $sMoreImage );
-				$oMoreAuthorsView->setOption( 'linktargethref', $oTitle->getLocalURL( array( 'action' => 'history' ) ) );
-				$oMoreAuthorsView->setOption( 'classes', array( 'bs-authors-more-icon' ) );
-				if ( $sPrintable == 'yes' ) {
-					$oMoreAuthorsView->setOption( 'print', true );
-				}
-
-				$oAuthorsView->addItem( $oMoreAuthorsView );
-			}
-
-			$dbr->freeResult( $res );
-			BsCacheHelper::set(
-				$sKey,
-				array(
-					'view' => $oAuthorsView,
-					'details' => $aDetails
-				)
-			);
-		}
-
-		return $oAuthorsView;
-	}
-
-	/**
-	 * Walks the line of revisions to find first editor that is not on blacklist
-	 * @param string $sOriginatorUserName
-	 * @param Revision $oRevision
-	 * @return string The originators username
-	 */
-	private function checkOriginatorForBlacklist( $sOriginatorUserName, $oRevision, $aBlacklist ) {
-		if( $oRevision instanceof Revision == false ) {
-			return $sOriginatorUserName;
-		}
-		$sOriginatorUserName = $oRevision->getUserText();
-		if(in_array( $sOriginatorUserName, $aBlacklist) ) {
-			return $this->checkOriginatorForBlacklist($sOriginatorUserName, $oRevision->getNext(), $aBlacklist);
-		}
-		return $sOriginatorUserName;
-	}
-
-	/**
-	 * Checks wether to set Context or not.
+	 * Checks whether to show Authors or not.
 	 * @return bool
 	 */
-	private function checkContext() {
+	public static function checkContext( $out ) {
 		$config = \MediaWiki\MediaWikiServices::getInstance()->getConfigFactory()->makeConfig( 'bsg' );
 		if ( $config->get( 'AuthorsShow' ) === false ) {
 			return false;
 		}
 
-		$oTitle = $this->getTitle();
+		$oTitle = $out->getTitle();
 		if ( !is_object( $oTitle ) ) {
 			return false;
 		}
@@ -292,7 +110,7 @@ class Authors extends BsExtensionMW {
 		}
 
 		// Do only display in view mode
-		if ( $this->getRequest()->getVal( 'action', 'view' ) != 'view' ) {
+		if ( $out->getRequest()->getVal( 'action', 'view' ) != 'view' ) {
 			return false;
 		}
 
