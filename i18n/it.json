@@ -13,5 +13,7 @@
 	"bs-authors-show-all-authors": "Altri autori disponibili",
 	"bs-authors-pref-limit": "Limite degli autori da visualizzare:",
 	"bs-authors-pref-show": "Visualizza autori",
-	"bs-authors-switch-description": "Nasconde gli autori su questa pagina."
+	"bs-authors-switch-description": "Nasconde gli autori su questa pagina.",
+	"bs-authors-navigation-link-title": "Autori di questa pagina",
+	"bs-authors-navigation-link-text": "Autori"
 }

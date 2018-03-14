@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Gomoko"
+			"Gomoko",
+			"Wladek92"
 		]
 	},
 	"bs-authors-desc": "Affiche l’image de profil des auteurs d’une page",
@@ -12,5 +13,7 @@
 	"bs-authors-show-all-authors": "Plus d’auteurs disponibles",
 	"bs-authors-pref-limit": "Limite des auteurs à afficher :",
 	"bs-authors-pref-show": "Afficher les auteurs",
-	"bs-authors-switch-description": "Masque les auteurs sur cette page."
+	"bs-authors-switch-description": "Masque les auteurs sur cette page.",
+	"bs-authors-navigation-link-title": "Auteur de cette page",
+	"bs-authors-navigation-link-text": "Auteurs"
 }
