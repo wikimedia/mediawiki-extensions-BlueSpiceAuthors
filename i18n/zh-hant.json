@@ -4,7 +4,8 @@
 			"Liuxinyu970226",
 			"Justincheng12345",
 			"Cwlin0416",
-			"LNDDYL"
+			"LNDDYL",
+			"Kly"
 		]
 	},
 	"bs-authors-desc": "顯示頁面作者的個人資料圖片",
@@ -15,5 +16,7 @@
 	"bs-authors-show-all-authors": "更多作者可用",
 	"bs-authors-pref-limit": "顯示作者限制：",
 	"bs-authors-pref-show": "顯示作者",
-	"bs-authors-switch-description": "於此頁中隱藏作者。"
+	"bs-authors-switch-description": "於此頁中隱藏作者。",
+	"bs-authors-navigation-link-title": "此頁面作者",
+	"bs-authors-navigation-link-text": "作者"
 }
