@@ -12,5 +12,7 @@
 	"bs-authors-show-all-authors": "Промена на профилната слика",
 	"bs-authors-pref-limit": "Колку највеќе автори да се прикажуваат:",
 	"bs-authors-pref-show": "Прикажувај автори",
-	"bs-authors-switch-description": "Ги сокрива авторите на страницава."
+	"bs-authors-switch-description": "Ги сокрива авторите на страницава.",
+	"bs-authors-navigation-link-title": "Автори на страницава",
+	"bs-authors-navigation-link-text": "Автори"
 }
