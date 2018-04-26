@@ -29,14 +29,12 @@ class AddAuthors extends SkinTemplateOutputPageBeforeExec {
 		);
 
 		$this->mergeSkinDataArray(
-			SkinData::PAGE_INFOS_PANEL,
+			SkinData::PAGE_INFOS,
 			[
-				'bs-authors' => [
-					'position' => 10,
-					'label' => 'bs-authors',
-					'type' => 'html',
-					'content' => $html
-				]
+				'position' => 10,
+				'label' => 'bs-authors',
+				'type' => 'html',
+				'content' => $html
 			]
 		);
 
