@@ -28,13 +28,13 @@ class AddAuthors extends SkinTemplateOutputPageBeforeExec {
 			$icon . wfMessage( 'bs-authors-navigation-link-text' )->text()
 		);
 
-		$this->mergeSkinDataArray(
+		$this->appendSkinDataArray(
 			SkinData::PAGE_INFOS,
 			[
-				'position' => 10,
-				'label' => 'bs-authors',
-				'type' => 'html',
-				'content' => $html
+			    'position' => 10,
+			    'label' => 'bs-authors',
+			    'type' => 'html',
+			    'content' => $html
 			]
 		);
 
