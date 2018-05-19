@@ -83,7 +83,7 @@
 			"dependencies": [
 				"ext.bluespice"
 			],
-			"target": [
+			"targets": [
 				"deskop", "mobile"
 			]
 		}
