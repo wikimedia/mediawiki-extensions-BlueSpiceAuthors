@@ -8,11 +8,11 @@ use BlueSpice\Hook\BeforePageDisplay;
 class AddModules extends BeforePageDisplay {
 	protected function doProcess() {
 
-		if( \Authors::checkContext( $this->getContext()->getOutput() ) === false ) {
+		if( \Authors::checkContext( $this->out ) === false ) {
 			return true;
 		}
 
-		$this->getContext()->getOutput()->addModules( 'ext.bluespice.authors' );
+		$this->out->addModules( 'ext.bluespice.authors' );
 		return true;
 	}
 }

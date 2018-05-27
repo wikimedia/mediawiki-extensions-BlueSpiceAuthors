@@ -67,7 +67,6 @@
 			"\\BlueSpice\\Authors\\Hook\\BeforePageDisplay\\FetchAuthors::callback"
 		]
 	},
-	"load_composer_autoloader" : true,
 	"ResourceModules": {
 		"ext.bluespice.authors": {
 			"styles": [
@@ -82,9 +81,6 @@
 			],
 			"dependencies": [
 				"ext.bluespice"
-			],
-			"targets": [
-				"deskop", "mobile"
 			]
 		}
 	},
@@ -92,5 +88,6 @@
 		"localBasePath": "resources",
 		"remoteExtPath": "BlueSpiceAuthors/resources"
 	},
+	"load_composer_autoloader" : true,
 	"manifest_version": 2
 }
