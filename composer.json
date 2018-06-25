@@ -1,5 +1,5 @@
 {
-	"name": "mediawiki/blue-spice-authors",
+	"name": "bluespice/authors",
 	"type": "mediawiki-extension",
 	"description": "Displays the profile picture for authors of a page",
 	"license": "GPL-3.0-only",
@@ -24,5 +24,8 @@
 		"fix": [
 			"minus-x fix ."
 		]
+	},
+	"extra": {
+		"installer-name": "BlueSpiceAuthors"
 	}
 }
