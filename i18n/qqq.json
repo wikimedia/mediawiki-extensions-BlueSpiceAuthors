@@ -17,5 +17,6 @@
 	"bs-authors-pref-show": "Option in [{{canonicalurl:Special:WikiAdmin|mode=Preferences}} Special:WikiAdmin?mode=Preferences], checkbox label for display authors",
 	"bs-authors-switch-description": "Behaviour switch __NOAUTHORS__ description for hiding authors on this page, shown in InsertMagic.",
 	"bs-authors-navigation-link-title": "Title for link to open graphical list with authors",
-	"bs-authors-navigation-link-text": "Text for link to open graphical list with authors\n{{Identical|Author}}"
+	"bs-authors-navigation-link-text": "Text for link to open graphical list with authors\n{{Identical|Author}}",
+	"bs-authors-flyout-title": "Title of the panel showing authors in the flyout"
 }
