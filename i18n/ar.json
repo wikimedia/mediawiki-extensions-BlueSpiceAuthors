@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"ديفيد"
+			"ديفيد",
+			"محمد أحمد عبد الفتاح"
 		]
 	},
 	"bs-authors-desc": "يعرض صورة الملف الشخصي لمؤلفي الصفحة",
@@ -14,5 +15,6 @@
 	"bs-authors-pref-show": "عرض المؤلفين",
 	"bs-authors-switch-description": "يخفي المؤلفين على هذه الصفحة.",
 	"bs-authors-navigation-link-title": "مؤلفو هذه الصفحة",
-	"bs-authors-navigation-link-text": "المؤلفون"
+	"bs-authors-navigation-link-text": "المؤلفون",
+	"bs-authors-flyout-title": "مؤلفو هذه الصفحة"
 }
