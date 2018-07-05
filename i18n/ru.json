@@ -5,7 +5,8 @@
 			"Meshkov.a",
 			"Eroha",
 			"Patrick Star",
-			"Movses"
+			"Movses",
+			"Vlad5250"
 		]
 	},
 	"bs-authors-desc": "Выводит картинку профиля для авторов страницы",
@@ -18,5 +19,6 @@
 	"bs-authors-pref-show": "Отображать авторов",
 	"bs-authors-switch-description": "Скрывает авторов этой страницы.",
 	"bs-authors-navigation-link-title": "Авторы этой страницы",
-	"bs-authors-navigation-link-text": "Авторы"
+	"bs-authors-navigation-link-text": "Авторы",
+	"bs-authors-flyout-title": "Авторы этой страницы"
 }
