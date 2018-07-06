@@ -1,6 +1,7 @@
 Ext.define( 'BS.Authors.panel.Authors', {
 	extend: 'Ext.Panel',
 	cls: 'bs-authors-flyout-authors',
+	minHeight: 180,
 	htmlForSitetools: [],
 	title: mw.message( 'bs-authors-flyout-title' ).plain(),
 	initComponent: function () {
