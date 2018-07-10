@@ -1,7 +1,7 @@
 Ext.onReady( function() {
 	Ext.Loader.setPath(
 		'BS.Authors',
-		bs.em.paths.get( 'BlueSpiceAuthors' ) + '/resources/js/BS.Authors'
+		bs.em.paths.get( 'BlueSpiceAuthors' ) + '/resources/BS.Authors'
 	);
 });
 

@@ -77,9 +77,6 @@
 			"styles": [
 				"styles/bluespice.authors.less"
 			],
-			"scripts": [
-				"js/bluespice.authors.GraphicalList.js"
-			],
 			"messages": [
 				"bs-authors-graphicallist-title-originator",
 				"bs-authors-graphicallist-title-authors"
