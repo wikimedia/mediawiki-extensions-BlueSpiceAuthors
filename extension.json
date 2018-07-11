@@ -66,28 +66,17 @@
 		"ViewAuthorsUserPageProfileImageSetting": "views/view.AuthorsUserPageProfileImageSetting.php"
 	},
 	"Hooks": {
-		"SkinTemplateOutputPageBeforeExec": "\\BlueSpice\\Authors\\Hook\\SkinTemplateOutputPageBeforeExec\\AddAuthors::callback",
 		"BeforePageDisplay": [
-			"\\BlueSpice\\Authors\\Hook\\BeforePageDisplay\\AddModules::callback",
 			"\\BlueSpice\\Authors\\Hook\\BeforePageDisplay\\FetchAuthors::callback"
 		]
 	},
 	"ResourceModules": {
-		"ext.bluespice.authors": {
-			"styles": [
-				"styles/bluespice.authors.less"
-			],
-			"messages": [
-				"bs-authors-graphicallist-title-originator",
-				"bs-authors-graphicallist-title-authors"
-			],
-			"dependencies": [
-				"ext.bluespice"
-			]
-		},
 		"ext.bluespice.authors.flyout": {
 			"scripts": [
-				"js/bluespice.authors.flyout.js"
+				"bluespice.authors.flyout.js"
+			],
+			"styles": [
+				"styles/bluespice.authors.less"
 			],
 			"messages": [
 				"bs-authors-flyout-title"
