@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Elisardojm",
-			"Toliño"
+			"Toliño",
+			"Banjo"
 		]
 	},
 	"bs-authors-desc": "Mostra as imaxes de perfil dos autores dunha páxina",
@@ -13,5 +14,6 @@
 	"bs-authors-show-all-authors": "Máis autores dispoñibles",
 	"bs-authors-pref-limit": "Límite de autores a mostrar:",
 	"bs-authors-pref-show": "Mostrar os autores",
-	"bs-authors-switch-description": "Agocha os autores nesta páxina."
+	"bs-authors-switch-description": "Agocha os autores nesta páxina.",
+	"bs-authors-navigation-link-text": "Autores"
 }
