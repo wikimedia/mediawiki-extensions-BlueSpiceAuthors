@@ -37,4 +37,4 @@ Ext.define( 'BS.Authors.panel.Authors', {
 
 		this.callParent( arguments );
 	}
-})
+});
