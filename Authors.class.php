@@ -46,8 +46,6 @@ class Authors extends BsExtensionMW {
 		$this->setHook( 'BSInsertMagicAjaxGetData' );
 		$this->setHook( 'BS:UserPageSettings', 'onUserPageSettings' );
 		$this->setHook( 'PageContentSave' );
-
-		$this->mCore->registerBehaviorSwitch( 'bs_noauthors' );
 	}
 
 	/**

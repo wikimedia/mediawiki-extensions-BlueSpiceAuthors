@@ -68,7 +68,8 @@
 	"Hooks": {
 		"BeforePageDisplay": [
 			"\\BlueSpice\\Authors\\Hook\\BeforePageDisplay\\FetchAuthors::callback"
-		]
+		],
+		"GetDoubleUnderscoreIDs": "\\BlueSpice\\Authors\\Hook\\GetDoubleUnderscoreIDs\\AddNoAuthors::callback"
 	},
 	"ResourceModules": {
 		"ext.bluespice.authors.flyout": {
