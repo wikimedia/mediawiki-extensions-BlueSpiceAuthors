@@ -13,7 +13,7 @@
 		"BlueSpiceFoundation": {
 			"Extensions": {
 				"BlueSpiceAuthors": {
-					"className": "Authors",
+					"className": "\\BlueSpice\\Authors\\Extension",
 					"extPath": "/BlueSpiceAuthors",
 					"configDefinitions": {
 						"AuthorsLimit": "\\BlueSpice\\Authors\\ConfigDefinition\\AuthorsLimit::getInstance",
@@ -60,12 +60,10 @@
 			"public": true
 		}
 	},
-	"AutoloadClasses": {
-		"Authors": "Authors.class.php",
-		"ViewAuthors": "views/view.Authors.php",
-		"ViewAuthorsUserPageProfileImageSetting": "views/view.AuthorsUserPageProfileImageSetting.php"
-	},
 	"Hooks": {
+		"BSInsertMagicAjaxGetData": [
+			"\\BlueSpice\\Authors\\Hook\\BSInsertMagicAjaxGetData\\Authors::callback"
+		],
 		"BeforePageDisplay": [
 			"\\BlueSpice\\Authors\\Hook\\BeforePageDisplay\\FetchAuthors::callback"
 		],
