@@ -77,6 +77,7 @@
 			"styles": [
 				"styles/bluespice.authors.less"
 			],
+			"class": "\\BlueSpice\\ResourceModule\\LessVars",
 			"messages": [
 				"bs-authors-flyout-title"
 			],
