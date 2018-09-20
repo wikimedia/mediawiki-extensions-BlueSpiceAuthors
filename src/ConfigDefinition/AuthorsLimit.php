@@ -6,6 +6,10 @@ use BlueSpice\ConfigDefinition\IntSetting;
 
 class AuthorsLimit extends IntSetting {
 
+	/**
+	 *
+	 * @return string[]
+	 */
 	public function getPaths() {
 		return [
 			static::MAIN_PATH_FEATURE . '/' . static::FEATURE_PERSONALISATION . '/BlueSpiceAuthors',
@@ -14,6 +18,10 @@ class AuthorsLimit extends IntSetting {
 		];
 	}
 
+	/**
+	 *
+	 * @return string
+	 */
 	public function getLabelMessageKey() {
 		return 'bs-authors-pref-limit';
 	}

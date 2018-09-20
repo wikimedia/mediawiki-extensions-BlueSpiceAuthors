@@ -25,4 +25,3 @@ class Authors extends BSInsertMagicAjaxGetData {
 	}
 
 }
-

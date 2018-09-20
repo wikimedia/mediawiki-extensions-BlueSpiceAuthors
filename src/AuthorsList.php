@@ -22,7 +22,6 @@ class AuthorsList {
 	 */
 	protected $blacklist = [];
 
-
 	/**
 	 *
 	 * @var int
@@ -38,7 +37,9 @@ class AuthorsList {
 	/**
 	 *
 	 * @param \Title $title
-	 * @param \Wikimedia\Rdbms\LoadBalancer $loadBalancer
+	 * @param array $blacklist
+	 * @param int $limit
+	 * @param \Wikimedia\Rdbms\LoadBalancer|null $loadBalancer
 	 */
 	public function __construct( $title, $blacklist, $limit, $loadBalancer = null ) {
 		$this->title = $title;
@@ -46,7 +47,7 @@ class AuthorsList {
 		$this->loadBalancer = $loadBalancer;
 		$this->limit = $limit;
 
-		if( $this->loadBalancer === null ) {
+		if ( $this->loadBalancer === null ) {
 			$services = \MediaWiki\MediaWikiServices::getInstance();
 			$this->loadBalancer = $services->getDBLoadBalancer();
 		}
@@ -54,24 +55,22 @@ class AuthorsList {
 
 	/**
 	 * Find first editor. If editor is on blacklist return empty string.
-	 * @param string $originator
 	 * @param Revision $revision
 	 * @return string The originators username
 	 *
 	 */
 	public function getOriginator( $revision ) {
-		if( $revision instanceof \Revision === false ) {
+		if ( $revision instanceof \Revision === false ) {
 			return '';
 		}
 		$originator = $revision->getUserText();
 		if ( \User::isIP( $originator ) ) {
 			return '';
 		}
-		if( in_array( $originator, $this->blacklist ) ) {
+		if ( in_array( $originator, $this->blacklist ) ) {
 			return '';
 		}
 		return $originator;
-
 	}
 
 	/**
@@ -80,7 +79,7 @@ class AuthorsList {
 	public function getEditors() {
 		$usertexts = $this->loadAllUserTexts();
 
-		if( empty( $usertexts ) ) {
+		if ( empty( $usertexts ) ) {
 			return [];
 		}
 
@@ -115,21 +114,29 @@ class AuthorsList {
 		return $editors;
 	}
 
+	/**
+	 *
+	 * @return bool
+	 */
 	public function moreEditors() {
 		return $this->more;
 	}
 
+	/**
+	 *
+	 * @return string[]
+	 */
 	protected function loadAllUserTexts() {
 		$dbr = $this->loadBalancer->getConnection( DB_REPLICA );
 		$res = $dbr->select(
-			array( 'revision' ),
-			array( 'rev_user_text', 'MAX(rev_timestamp) AS ts' ),
-			array( 'rev_page' => $this->title->getArticleID() ),
+			[ 'revision' ],
+			[ 'rev_user_text', 'MAX(rev_timestamp) AS ts' ],
+			[ 'rev_page' => $this->title->getArticleID() ],
 			__METHOD__,
-			array(
+			[
 				'GROUP BY' => 'rev_user_text',
 				'ORDER BY' => 'ts DESC'
-			)
+			]
 		);
 
 		if ( $res->numRows() == 0 ) {

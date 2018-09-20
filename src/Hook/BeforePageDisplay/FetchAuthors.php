@@ -3,9 +3,6 @@
 namespace BlueSpice\Authors\Hook\BeforePageDisplay;
 
 use BlueSpice\Hook\BeforePageDisplay;
-use BlueSpice\DynamicFileDispatcher\UrlBuilder;
-use BlueSpice\DynamicFileDispatcher\Params;
-use BlueSpice\DynamicFileDispatcher\UserProfileImage;
 
 class FetchAuthors extends BeforePageDisplay {
 
@@ -23,20 +20,18 @@ class FetchAuthors extends BeforePageDisplay {
 			return true;
 		}
 
-		if ( in_array( $title->getNamespace(), array( NS_SPECIAL, NS_CATEGORY, NS_FILE ) ) ) {
+		if ( in_array( $title->getNamespace(), [ NS_SPECIAL, NS_CATEGORY, NS_FILE ] ) ) {
 			return true;
 		}
 
 		// Do not display if __NOAUTHORS__ keyword is found
 		$noAuthors = \BsArticleHelper::getInstance( $title )->getPageProp( 'bs_noauthors' );
-		if( $noAuthors === '' ) {
+		if ( $noAuthors === '' ) {
 			return true;
 		}
-
 	}
 
 	protected function doProcess() {
-
 		$list = new \BlueSpice\Authors\AuthorsList(
 			$this->out->getTitle(),
 			$this->getConfig()->get( 'AuthorsBlacklist' ),
@@ -52,7 +47,7 @@ class FetchAuthors extends BeforePageDisplay {
 
 		$authors = [];
 
-		if ( $originator !== '') {
+		if ( $originator !== '' ) {
 			$user = \User::newFromName( $originator );
 			$authors['originator'] = $this->makeEntry( $user );
 		}
@@ -66,7 +61,6 @@ class FetchAuthors extends BeforePageDisplay {
 
 		$authors['more'] = $list->moreEditors();
 
-
 		$this->out->addJsConfigVars( [
 			'bsgAuthorsSitetools' => $authors
 		] );
@@ -77,6 +71,7 @@ class FetchAuthors extends BeforePageDisplay {
 	/**
 	 *
 	 * @param \User $user
+	 * @return string
 	 */
 	protected function makeEntry( $user ) {
 		$factory = \BlueSpice\Services::getInstance()->getBSRendererFactory();

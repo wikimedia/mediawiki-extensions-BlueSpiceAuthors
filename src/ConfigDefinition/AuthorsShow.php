@@ -6,6 +6,10 @@ use BlueSpice\ConfigDefinition\BooleanSetting;
 
 class AuthorsShow extends BooleanSetting {
 
+	/**
+	 *
+	 * @return string[]
+	 */
 	public function getPaths() {
 		return [
 			static::MAIN_PATH_FEATURE . '/' . static::FEATURE_DATA_ANALYSIS . '/BlueSpiceAuthors',
@@ -14,6 +18,10 @@ class AuthorsShow extends BooleanSetting {
 		];
 	}
 
+	/**
+	 *
+	 * @return string
+	 */
 	public function getLabelMessageKey() {
 		return 'bs-authors-pref-show';
 	}
