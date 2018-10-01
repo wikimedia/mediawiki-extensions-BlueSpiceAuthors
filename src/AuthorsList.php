@@ -41,7 +41,7 @@ class AuthorsList {
 	 * @param int $limit
 	 * @param \Wikimedia\Rdbms\LoadBalancer|null $loadBalancer
 	 */
-	public function __construct( $title, $blacklist, $limit, $loadBalancer = null ) {
+	public function __construct( $title, $blacklist, $limit = 0, $loadBalancer = null ) {
 		$this->title = $title;
 		$this->blacklist = $blacklist;
 		$this->loadBalancer = $loadBalancer;
@@ -88,7 +88,7 @@ class AuthorsList {
 		$editors = [];
 
 		while ( $items < $count ) {
-			if ( $items > ( $this->limit - 1 ) ) {
+			if ( $this->limit && $items > ( $this->limit - 1 ) ) {
 				$this->more = true;
 				break;
 			}

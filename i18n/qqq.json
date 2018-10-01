@@ -18,5 +18,7 @@
 	"bs-authors-switch-description": "Behaviour switch __NOAUTHORS__ description for hiding authors on this page, shown in InsertMagic.",
 	"bs-authors-navigation-link-title": "Title for link to open graphical list with authors",
 	"bs-authors-navigation-link-text": "Text for link to open graphical list with authors\n{{Identical|Author}}",
-	"bs-authors-flyout-title": "Title of the panel showing authors in the flyout"
+	"bs-authors-flyout-title": "Title of the panel showing authors in the flyout",
+	"bs-authors-author-type-originator": "Label for author type in flyout grid. User that originally created the page",
+	"bs-authors-author-type-editor": "Label for author type in flyout grid. User that edited (contributed to) the page"
 }

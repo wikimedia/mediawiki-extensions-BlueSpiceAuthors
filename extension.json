@@ -79,7 +79,9 @@
 			],
 			"class": "\\BlueSpice\\ResourceModule\\LessVars",
 			"messages": [
-				"bs-authors-flyout-title"
+				"bs-authors-flyout-title",
+				"bs-authors-author-type-originator",
+				"bs-authors-author-type-editor"
 			],
 			"dependencies": [
 				"ext.bluespice",

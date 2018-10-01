@@ -34,8 +34,7 @@ class FetchAuthors extends BeforePageDisplay {
 	protected function doProcess() {
 		$list = new \BlueSpice\Authors\AuthorsList(
 			$this->out->getTitle(),
-			$this->getConfig()->get( 'AuthorsBlacklist' ),
-			$this->getConfig()->get( 'AuthorsLimit' )
+			$this->getConfig()->get( 'AuthorsBlacklist' )
 		);
 
 		$revision = $this->out->getTitle()->getFirstRevision();
@@ -45,24 +44,28 @@ class FetchAuthors extends BeforePageDisplay {
 
 		$editors = $list->getEditors();
 
-		$authors = [];
+		$authors = [ 'authors' => [] ];
 
 		if ( $originator !== '' ) {
 			$user = \User::newFromName( $originator );
-			$authors['originator'] = $this->makeEntry( $user );
+			$authors['authors'][] = [
+				'user_image_html' => $this->makeImage( $user ),
+				'user_name' => $user->getName(),
+				'author_type' => 'originator'
+			];
 		}
-
-		$authors['editors'] = [];
 
 		foreach ( $editors as $editor ) {
 			$user = \User::newFromName( $editor );
-			$authors['editors'][] = $this->makeEntry( $user );
+			$authors['authors'][] = [
+				'user_image_html' => $this->makeImage( $user ),
+				'user_name' => $user->getName(),
+				'author_type' => 'editor'
+			];
 		}
 
-		$authors['more'] = $list->moreEditors();
-
 		$this->out->addJsConfigVars( [
-			'bsgAuthorsSitetools' => $authors
+			'bsgPageAuthors' => $authors
 		] );
 
 		return true;
@@ -73,7 +76,7 @@ class FetchAuthors extends BeforePageDisplay {
 	 * @param \User $user
 	 * @return string
 	 */
-	protected function makeEntry( $user ) {
+	protected function makeImage( $user ) {
 		$factory = \BlueSpice\Services::getInstance()->getBSRendererFactory();
 		$image = $factory->get( 'userimage', new \BlueSpice\Renderer\Params( [
 			'user' => $user,

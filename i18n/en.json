@@ -15,5 +15,7 @@
 	"bs-authors-switch-description": "Hides authors on this page.",
 	"bs-authors-navigation-link-title": "Authors of this page",
 	"bs-authors-navigation-link-text": "Authors",
-	"bs-authors-flyout-title": "Authors of this page"
+	"bs-authors-flyout-title": "Authors of this page",
+	"bs-authors-author-type-originator": "Original author",
+	"bs-authors-author-type-editor": "Editor"
 }
