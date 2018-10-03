@@ -19,5 +19,7 @@
 	"bs-authors-switch-description": "於此頁中隱藏作者。",
 	"bs-authors-navigation-link-title": "此頁面作者",
 	"bs-authors-navigation-link-text": "作者",
-	"bs-authors-flyout-title": "此頁面作者"
+	"bs-authors-flyout-title": "此頁面作者",
+	"bs-authors-author-type-originator": "原始作者",
+	"bs-authors-author-type-editor": "編輯者"
 }

@@ -18,5 +18,7 @@
 	"bs-authors-switch-description": "이 문서의 작성자를 숨깁니다.",
 	"bs-authors-navigation-link-title": "이 문서의 작성자",
 	"bs-authors-navigation-link-text": "작성자",
-	"bs-authors-flyout-title": "이 문서의 작성자"
+	"bs-authors-flyout-title": "이 문서의 작성자",
+	"bs-authors-author-type-originator": "원저자",
+	"bs-authors-author-type-editor": "편집자"
 }

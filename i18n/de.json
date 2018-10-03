@@ -17,5 +17,7 @@
 	"bs-authors-switch-description": "Autoren werden auf dieser Seite nicht angezeigt.",
 	"bs-authors-navigation-link-title": "Autoren dieser Seite",
 	"bs-authors-navigation-link-text": "Autoren",
-	"bs-authors-flyout-title": "Autoren dieser Seite"
+	"bs-authors-flyout-title": "Autoren dieser Seite",
+	"bs-authors-author-type-originator": "Ursprünglicher Autor",
+	"bs-authors-author-type-editor": "Autor"
 }

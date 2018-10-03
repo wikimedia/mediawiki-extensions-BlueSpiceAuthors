@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"ديفيد",
-			"محمد أحمد عبد الفتاح"
+			"محمد أحمد عبد الفتاح",
+			"Meno25"
 		]
 	},
 	"bs-authors-desc": "يعرض صورة الملف الشخصي لمؤلفي الصفحة",
@@ -16,5 +17,7 @@
 	"bs-authors-switch-description": "يخفي المؤلفين على هذه الصفحة.",
 	"bs-authors-navigation-link-title": "مؤلفو هذه الصفحة",
 	"bs-authors-navigation-link-text": "المؤلفون",
-	"bs-authors-flyout-title": "مؤلفو هذه الصفحة"
+	"bs-authors-flyout-title": "مؤلفو هذه الصفحة",
+	"bs-authors-author-type-originator": "المؤلف الأصلي",
+	"bs-authors-author-type-editor": "محرر"
 }

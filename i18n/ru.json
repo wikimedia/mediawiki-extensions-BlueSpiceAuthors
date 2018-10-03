@@ -20,5 +20,7 @@
 	"bs-authors-switch-description": "Скрывает авторов этой страницы.",
 	"bs-authors-navigation-link-title": "Авторы этой страницы",
 	"bs-authors-navigation-link-text": "Авторы",
-	"bs-authors-flyout-title": "Авторы этой страницы"
+	"bs-authors-flyout-title": "Авторы этой страницы",
+	"bs-authors-author-type-originator": "Оригинальный автор",
+	"bs-authors-author-type-editor": "Редактор"
 }

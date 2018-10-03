@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Gomoko",
-			"Wladek92"
+			"Wladek92",
+			"Zarisi"
 		]
 	},
 	"bs-authors-desc": "Affiche l’image de profil des auteurs d’une page",
@@ -16,5 +17,7 @@
 	"bs-authors-switch-description": "Masque les auteurs sur cette page.",
 	"bs-authors-navigation-link-title": "Auteur de cette page",
 	"bs-authors-navigation-link-text": "Auteurs",
-	"bs-authors-flyout-title": "Auteurs de cette page"
+	"bs-authors-flyout-title": "Auteurs de cette page",
+	"bs-authors-author-type-originator": "Auteur originel",
+	"bs-authors-author-type-editor": "Éditeur"
 }
