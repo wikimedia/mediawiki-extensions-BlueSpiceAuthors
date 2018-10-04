@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Liuxinyu970226"
+			"Liuxinyu970226",
+			"A Chinese Wikipedian"
 		]
 	},
 	"bs-authors-desc": "显示页面作者的个人资料图片",
@@ -15,5 +16,7 @@
 	"bs-authors-switch-description": "在此页面隐藏作者。",
 	"bs-authors-navigation-link-title": "此页面的作者",
 	"bs-authors-navigation-link-text": "作者",
-	"bs-authors-flyout-title": "此页面的作者"
+	"bs-authors-flyout-title": "此页面的作者",
+	"bs-authors-author-type-originator": "原作者",
+	"bs-authors-author-type-editor": "编者"
 }
