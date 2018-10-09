@@ -65,7 +65,8 @@
 			"\\BlueSpice\\Authors\\Hook\\BSInsertMagicAjaxGetData\\Authors::callback"
 		],
 		"BeforePageDisplay": [
-			"\\BlueSpice\\Authors\\Hook\\BeforePageDisplay\\FetchAuthors::callback"
+			"\\BlueSpice\\Authors\\Hook\\BeforePageDisplay\\FetchAuthors::callback",
+			"\\BlueSpice\\Authors\\Hook\\BeforePageDisplay\\AddModules::callback"
 		],
 		"GetDoubleUnderscoreIDs": "\\BlueSpice\\Authors\\Hook\\GetDoubleUnderscoreIDs\\AddNoAuthors::callback"
 	},
@@ -74,10 +75,6 @@
 			"scripts": [
 				"bluespice.authors.flyout.js"
 			],
-			"styles": [
-				"styles/bluespice.authors.less"
-			],
-			"class": "\\BlueSpice\\ResourceModule\\LessVars",
 			"messages": [
 				"bs-authors-flyout-title",
 				"bs-authors-author-type-originator",
@@ -87,6 +84,12 @@
 				"ext.bluespice",
 				"ext.bluespice.extjs"
 			]
+		},
+		"ext.bluespice.authors.flyout.styles": {
+			"styles": [
+				"styles/bluespice.authors.less"
+			],
+			"class": "\\BlueSpice\\ResourceModule\\LessVars"
 		}
 	},
 	"ResourceFileModulePaths": {
