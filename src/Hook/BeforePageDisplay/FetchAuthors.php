@@ -48,15 +48,20 @@ class FetchAuthors extends BeforePageDisplay {
 
 		if ( $originator !== '' ) {
 			$user = \User::newFromName( $originator );
-			$authors['authors'][] = [
-				'user_image_html' => $this->makeImage( $user ),
-				'user_name' => $user->getName(),
-				'author_type' => 'originator'
-			];
+			if ( $user instanceof \User ) {
+				$authors['authors'][] = [
+					'user_image_html' => $this->makeImage( $user ),
+					'user_name' => $user->getName(),
+					'author_type' => 'originator'
+				];
+			}
 		}
 
 		foreach ( $editors as $editor ) {
 			$user = \User::newFromName( $editor );
+			if ( $user instanceof \User === false ) {
+				continue;
+			}
 			$authors['authors'][] = [
 				'user_image_html' => $this->makeImage( $user ),
 				'user_name' => $user->getName(),
