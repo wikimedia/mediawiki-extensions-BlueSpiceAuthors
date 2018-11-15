@@ -63,7 +63,13 @@ class AuthorsList {
 		if ( $revision instanceof \Revision === false ) {
 			return '';
 		}
+
+		if ( !$revision->getUser() ) {
+			return '';
+		}
+
 		$originator = $revision->getUserText();
+
 		if ( \User::isIP( $originator ) ) {
 			return '';
 		}
