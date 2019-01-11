@@ -19,7 +19,6 @@
 					"className": "\\BlueSpice\\Authors\\Extension",
 					"extPath": "/BlueSpiceAuthors",
 					"configDefinitions": {
-						"AuthorsLimit": "\\BlueSpice\\Authors\\ConfigDefinition\\AuthorsLimit::getInstance",
 						"AuthorsShow": "\\BlueSpice\\Authors\\ConfigDefinition\\AuthorsShow::getInstance"
 					}
 				}
@@ -48,11 +47,6 @@
 			"value": [
 				"MediaWiki default"
 			]
-		},
-		"AuthorsLimit": {
-			"value": 10,
-			"descriptionmsg": "bs-authors-pref-limit",
-			"public": true
 		},
 		"AuthorsMoreImage": {
 			"value": "more-users_v2.png"
