@@ -20,7 +20,7 @@ Ext.define( 'BS.Authors.grid.Authors', {
 		} );
 
 		this.colAggregatedInfo = Ext.create( 'Ext.grid.column.Template', {
-			id: 'aggregated',
+			id: 'authors-aggregated',
 			sortable: false,
 			width: 400,
 			tpl: new Ext.XTemplate( "<div class='bs-authors-flyout-grid-item'>" +
