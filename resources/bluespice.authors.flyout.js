@@ -1,10 +1,3 @@
-Ext.onReady( function() {
-	Ext.Loader.setPath(
-		'BS.Authors',
-		bs.em.paths.get( 'BlueSpiceAuthors' ) + '/resources/BS.Authors'
-	);
-});
-
 (function( mw, $, bs, undefined ) {
 	bs.util.registerNamespace( 'bs.authors.flyout' );
 
