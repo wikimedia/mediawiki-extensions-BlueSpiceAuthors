@@ -25,7 +25,8 @@ class FetchAuthors extends BeforePageDisplay {
 		}
 
 		// Do not display if __NOAUTHORS__ keyword is found
-		$noAuthors = \BsArticleHelper::getInstance( $title )->getPageProp( 'bs_noauthors' );
+		$noAuthors = $this->getServices()->getBSUtilityFactory()
+			->getPagePropHelper( $title )->getPageProp( 'bs_noauthors' );
 		if ( $noAuthors === '' ) {
 			return true;
 		}
