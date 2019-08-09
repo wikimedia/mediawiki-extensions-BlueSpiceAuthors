@@ -3,7 +3,8 @@
 		"authors": [
 			"WikiPhoenix",
 			"Jopparn",
-			"Lokal Profil"
+			"Lokal Profil",
+			"Mjälten"
 		]
 	},
 	"bs-authors-desc": "Visar profilbilden för författare till en sida",
@@ -16,5 +17,7 @@
 	"bs-authors-switch-description": "Döljer författarna för denna sida.",
 	"bs-authors-navigation-link-title": "Författarna till denna sida",
 	"bs-authors-navigation-link-text": "Författare",
-	"bs-authors-flyout-title": "Författare till denna sida"
+	"bs-authors-flyout-title": "Författare till denna sida",
+	"bs-authors-author-type-originator": "Upphovsförfattare",
+	"bs-authors-author-type-editor": "Redaktörer"
 }
