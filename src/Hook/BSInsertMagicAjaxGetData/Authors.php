@@ -16,7 +16,7 @@ class Authors extends BSInsertMagicAjaxGetData {
 		$descriptor->id = 'bs:authors';
 		$descriptor->type = 'switch';
 		$descriptor->name = 'NOAUTHORS';
-		$descriptor->desc = wfMessage( 'bs-authors-switch-description' )->plain();
+		$descriptor->desc = $this->msg( 'bs-authors-switch-description' )->plain();
 		$descriptor->code = '__NOAUTHORS__';
 		$descriptor->previewable = false;
 		$this->response->result[] = $descriptor;
