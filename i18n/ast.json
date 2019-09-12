@@ -14,5 +14,7 @@
 	"bs-authors-switch-description": "Tapecer los autores nesta páxina.",
 	"bs-authors-navigation-link-title": "Autores d'esta páxina",
 	"bs-authors-navigation-link-text": "Autores",
-	"bs-authors-flyout-title": "Autores d'esta páxina"
+	"bs-authors-flyout-title": "Autores d'esta páxina",
+	"bs-authors-author-type-originator": "Autor orixinal",
+	"bs-authors-author-type-editor": "Editor"
 }
