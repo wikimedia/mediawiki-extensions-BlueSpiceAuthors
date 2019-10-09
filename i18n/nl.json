@@ -5,7 +5,8 @@
 			"SPQRobin",
 			"Sjoerddebruin",
 			"Siebrand",
-			"Jeroen N"
+			"Jeroen N",
+			"Mainframe98"
 		]
 	},
 	"bs-authors-desc": "Geeft de profielfoto weer van de auteurs van een pagina",
@@ -14,10 +15,11 @@
 	"bs-authors-profileimage": "Profielafbeelding",
 	"bs-authors-profileimage-change": "Profielafbeelding wijzigen",
 	"bs-authors-show-all-authors": "Meer auteurs beschikbaar",
-	"bs-authors-pref-limit": "Limiet van auteurs om weer te geven:",
 	"bs-authors-pref-show": "Auteurs weergeven",
 	"bs-authors-switch-description": "Verbergt auteurs bij deze pagina.",
+	"bs-authors-navigation-link-text": "Auteurs",
 	"bs-authors-flyout-title": "Auteurs van deze pagina",
 	"bs-authors-author-type-originator": "Oorspronkelijke auteur",
-	"bs-authors-author-type-editor": "Redacteur"
+	"bs-authors-author-type-editor": "Redacteur",
+	"bs-authors-navigation-link-title": "Auteurs van deze pagina"
 }
