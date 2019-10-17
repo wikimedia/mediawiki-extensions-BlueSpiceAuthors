@@ -2,6 +2,8 @@
 
 namespace BlueSpice\Authors;
 
+use BlueSpice\Services;
+
 class AuthorsList {
 
 	/**
@@ -48,7 +50,7 @@ class AuthorsList {
 		$this->limit = $limit;
 
 		if ( $this->loadBalancer === null ) {
-			$services = \MediaWiki\MediaWikiServices::getInstance();
+			$services = Services::getInstance();
 			$this->loadBalancer = $services->getDBLoadBalancer();
 		}
 	}
