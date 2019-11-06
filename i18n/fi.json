@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Nike"
+			"Nike",
+			"Silvonen"
 		]
 	},
 	"bs-authors-author-type-originator": "Alkuperäinen luoja",
-	"bs-authors-author-type-editor": "Muokkaaja"
+	"bs-authors-author-type-editor": "Muokkaaja",
+	"bs-authors-profileimage": "Profiilikuva"
 }

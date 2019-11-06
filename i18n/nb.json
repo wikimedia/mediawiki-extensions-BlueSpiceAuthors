@@ -14,5 +14,7 @@
 	"bs-authors-switch-description": "Skjul forfatterne på denne siden.",
 	"bs-authors-navigation-link-title": "Forfatterne av denne siden",
 	"bs-authors-navigation-link-text": "Forfattere",
-	"bs-authors-flyout-title": "Forfattere av denne siden"
+	"bs-authors-flyout-title": "Forfattere av denne siden",
+	"bs-authors-author-type-originator": "Opprinnelig bidragsyter",
+	"bs-authors-author-type-editor": "Bidragsyter"
 }
