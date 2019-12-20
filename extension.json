@@ -31,7 +31,8 @@
 			"FlyoutModules": {
 				"authors": {
 					"module": "ext.bluespice.authors.flyout",
-					"make-items-callback": "bs.authors.flyout.makeItems"
+					"make-items-callback": "bs.authors.flyout.makeItems",
+					"skip-callback": "\\BlueSpice\\Authors\\SkipArticleInfoFlyoutModuleChecker::callback"
 				}
 			}
 		}
@@ -43,6 +44,9 @@
 	},
 	"ExtensionMessagesFiles": {
 		"AuthorsMagic": "languages/Authors.i18n.magic.php"
+	},
+	"APIModules": {
+		"bs-pageauthors-store": "BlueSpice\\Authors\\Api\\Store\\PageAuthors"
 	},
 	"config_prefix": "bsg",
 	"config": {
@@ -64,16 +68,16 @@
 		"BSInsertMagicAjaxGetData": [
 			"\\BlueSpice\\Authors\\Hook\\BSInsertMagicAjaxGetData\\Authors::callback"
 		],
-		"BeforePageDisplay": [
-			"\\BlueSpice\\Authors\\Hook\\BeforePageDisplay\\FetchAuthors::callback",
-			"\\BlueSpice\\Authors\\Hook\\BeforePageDisplay\\AddModules::callback"
-		],
 		"GetDoubleUnderscoreIDs": "\\BlueSpice\\Authors\\Hook\\GetDoubleUnderscoreIDs\\AddNoAuthors::callback"
 	},
 	"ResourceModules": {
 		"ext.bluespice.authors.flyout": {
+			"class": "\\BlueSpice\\ResourceModule\\LessVars",
 			"scripts": [
 				"bluespice.authors.flyout.js"
+			],
+			"styles": [
+				"styles/bluespice.authors.less"
 			],
 			"messages": [
 				"bs-authors-flyout-title",
@@ -84,12 +88,6 @@
 				"ext.bluespice",
 				"ext.bluespice.extjs"
 			]
-		},
-		"ext.bluespice.authors.flyout.styles": {
-			"styles": [
-				"styles/bluespice.authors.less"
-			],
-			"class": "\\BlueSpice\\ResourceModule\\LessVars"
 		}
 	},
 	"ResourceFileModulePaths": {
@@ -97,7 +95,8 @@
 		"remoteExtPath": "BlueSpiceAuthors/resources"
 	},
 	"AutoloadNamespaces": {
-		"BlueSpice\\Authors\\": "src/"
+		"BlueSpice\\Authors\\": "src/",
+		"BlueSpice\\Authors\\Tests\\": "tests/phpunit/"
 	},
 	"load_composer_autoloader" : true,
 	"manifest_version": 2
