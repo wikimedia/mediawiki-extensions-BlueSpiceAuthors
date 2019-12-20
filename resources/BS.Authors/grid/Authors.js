@@ -1,22 +1,15 @@
 Ext.define( 'BS.Authors.grid.Authors', {
 	extend: 'Ext.grid.Panel',
+	requires: [ 'BS.store.BSApi' ],
 	cls: 'bs-authors-flyout-authors',
 	maxWidth: 600,
 	pageSize : 3,
 	authors: [],
 	title: mw.message( 'bs-authors-flyout-title' ).plain(),
 	initComponent: function () {
-		this.store =  new Ext.data.Store( {
-			autoLoad: true,
-			fields: [ 'user_image_html', 'user_name', 'author_type' ],
-			data: this.authors,
-			proxy: {
-				type: 'memory',
-				reader: {
-					type: 'json',
-					rootProperty: 'authors'
-				}
-			}
+		this.store =  new BS.store.BSApi( {
+			apiAction: 'bs-pageauthors-store',
+			fields: [ 'user_image_html', 'user_name', 'author_type' ]
 		} );
 
 		this.colAggregatedInfo = Ext.create( 'Ext.grid.column.Template', {
