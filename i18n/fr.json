@@ -3,7 +3,8 @@
 		"authors": [
 			"Gomoko",
 			"Wladek92",
-			"Zarisi"
+			"Zarisi",
+			"Pols12"
 		]
 	},
 	"bs-authors-desc": "Affiche l’image de profil des auteurs d’une page",
@@ -18,5 +19,6 @@
 	"bs-authors-navigation-link-text": "Auteurs",
 	"bs-authors-flyout-title": "Auteurs de cette page",
 	"bs-authors-author-type-originator": "Auteur originel",
-	"bs-authors-author-type-editor": "Éditeur"
+	"bs-authors-author-type-editor": "Éditeur",
+	"apihelp-bs-pageauthors-store-summary": "Lister tous les auteur d’une page fournie dans le contexte"
 }

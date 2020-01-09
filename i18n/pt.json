@@ -19,5 +19,6 @@
 	"bs-authors-navigation-link-text": "Autores",
 	"bs-authors-flyout-title": "Autores desta página",
 	"bs-authors-author-type-originator": "Autor original",
-	"bs-authors-author-type-editor": "Editor"
+	"bs-authors-author-type-editor": "Editor",
+	"apihelp-bs-pageauthors-store-summary": "Listar todos os autores de uma página fornecida no contexto"
 }
