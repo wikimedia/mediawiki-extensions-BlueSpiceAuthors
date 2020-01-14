@@ -2,13 +2,13 @@
 
 namespace BlueSpice\Authors\Tests;
 
-use PHPUnit\Framework\TestCase;
 use BlueSpice\Authors\SkipArticleInfoFlyoutModuleChecker;
-use HashConfig;
+use BlueSpice\Utility\PagePropHelper;
 use Config;
+use HashConfig;
+use PHPUnit\Framework\TestCase;
 use Title;
 use WebRequest;
-use BlueSpice\Utility\PagePropHelper;
 
 class SkipArticleInfoFlyoutModuleCheckerTest extends TestCase {
 

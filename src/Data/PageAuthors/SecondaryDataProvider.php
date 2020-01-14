@@ -2,9 +2,9 @@
 
 namespace BlueSpice\Authors\Data\PageAuthors;
 
-use User;
 use BlueSpice\Renderer\Params;
 use BlueSpice\RendererFactory;
+use User;
 
 class SecondaryDataProvider extends \BlueSpice\Data\SecondaryDataProvider {
 

@@ -2,12 +2,12 @@
 
 namespace BlueSpice\Authors\Data\PageAuthors;
 
-use BlueSpice\Data\ReaderParams;
 use BlueSpice\Data\DatabaseReader;
+use BlueSpice\Data\ReaderParams;
 use BlueSpice\Services;
-use Wikimedia\Rdbms\LoadBalancer;
-use IContextSource;
 use Config;
+use IContextSource;
+use Wikimedia\Rdbms\LoadBalancer;
 
 class Reader extends DatabaseReader {
 

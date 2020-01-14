@@ -3,10 +3,10 @@
 namespace BlueSpice\Authors;
 
 use BlueSpice\Services;
+use BlueSpice\Utility\PagePropHelper;
 use Config;
 use Title;
 use WebRequest;
-use BlueSpice\Utility\PagePropHelper;
 
 class SkipArticleInfoFlyoutModuleChecker {
 

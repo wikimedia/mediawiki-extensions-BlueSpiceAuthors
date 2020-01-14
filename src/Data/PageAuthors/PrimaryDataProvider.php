@@ -2,12 +2,12 @@
 
 namespace BlueSpice\Authors\Data\PageAuthors;
 
-use BlueSpice\Data\IPrimaryDataProvider;
 use BlueSpice\Authors\AuthorsList;
+use BlueSpice\Data\IPrimaryDataProvider;
+use ReaderParams;
+use Title;
 use User;
 use Wikimedia\Rdbms\LoadBalancer;
-use Title;
-use ReaderParams;
 
 class PrimaryDataProvider implements IPrimaryDataProvider {
 
