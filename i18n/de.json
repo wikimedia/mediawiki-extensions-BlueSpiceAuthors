@@ -3,7 +3,8 @@
 		"authors": [
 			"Stephan Muggli <muggli@hallowelt.biz>",
 			"Metalhead64",
-			"Smuggli"
+			"Smuggli",
+			"Mglaser"
 		]
 	},
 	"bs-authors-desc": "Zeigt Profilbilder für Autoren einer Seite an",
@@ -18,5 +19,6 @@
 	"bs-authors-navigation-link-text": "Autoren",
 	"bs-authors-flyout-title": "Autoren dieser Seite",
 	"bs-authors-author-type-originator": "Ursprünglicher Autor",
-	"bs-authors-author-type-editor": "Autor"
+	"bs-authors-author-type-editor": "Autor",
+	"apihelp-bs-pageauthors-store-summary": "Listet alle Autoren einer gegebenen Seite im Kontext auf"
 }

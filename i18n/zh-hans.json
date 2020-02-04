@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Liuxinyu970226",
-			"A Chinese Wikipedian"
+			"A Chinese Wikipedian",
+			"VulpesVulpes825"
 		]
 	},
 	"bs-authors-desc": "显示页面作者的个人资料图片",
@@ -17,5 +18,6 @@
 	"bs-authors-navigation-link-text": "作者",
 	"bs-authors-flyout-title": "此页面的作者",
 	"bs-authors-author-type-originator": "原作者",
-	"bs-authors-author-type-editor": "编者"
+	"bs-authors-author-type-editor": "编者",
+	"apihelp-bs-pageauthors-store-summary": "列出提供在上下文里的所有页面作者"
 }
