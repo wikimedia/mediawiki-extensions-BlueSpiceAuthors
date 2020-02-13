@@ -55,9 +55,6 @@
 				"MediaWiki default"
 			]
 		},
-		"AuthorsMoreImage": {
-			"value": "more-users_v2.png"
-		},
 		"AuthorsShow": {
 			"value": true,
 			"descriptionmsg": "bs-authors-pref-show",
