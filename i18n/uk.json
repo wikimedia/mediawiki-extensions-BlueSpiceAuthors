@@ -19,5 +19,6 @@
 	"bs-authors-navigation-link-text": "Автори",
 	"bs-authors-flyout-title": "Автори цієї сторінки",
 	"bs-authors-author-type-originator": "Оригінальний автор",
-	"bs-authors-author-type-editor": "Редактор"
+	"bs-authors-author-type-editor": "Редактор",
+	"apihelp-bs-pageauthors-store-summary": "Перелічити всіх авторів сторінки, поданої в контексті"
 }
