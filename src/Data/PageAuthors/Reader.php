@@ -49,7 +49,7 @@ class Reader extends DatabaseReader {
 	 */
 	protected function makeSecondaryDataProvider() {
 		return new SecondaryDataProvider(
-			Services::getInstance()->getBSRendererFactory()
+			Services::getInstance()->getService( 'BSRendererFactory' )
 		);
 	}
 
