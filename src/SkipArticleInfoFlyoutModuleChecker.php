@@ -44,7 +44,7 @@ class SkipArticleInfoFlyoutModuleChecker {
 		$config = $services->getConfigFactory()->makeConfig( 'bsg' );
 		$title = $context->getTitle();
 		$request = $context->getRequest();
-		$pagePropHelper = $services->getBSUtilityFactory()->getPagePropHelper( $title );
+		$pagePropHelper = $services->getService( 'BSUtilityFactory' )->getPagePropHelper( $title );
 
 		$checker = new static( $config, $title, $request, $pagePropHelper );
 
