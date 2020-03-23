@@ -5,7 +5,9 @@ namespace BlueSpice\Authors;
 use BlueSpice\Services;
 use BlueSpice\Utility\PagePropHelper;
 use Config;
+use MediaWiki\Permissions\PermissionManager;
 use Title;
+use User;
 use WebRequest;
 
 class SkipArticleInfoFlyoutModuleChecker {
@@ -29,10 +31,20 @@ class SkipArticleInfoFlyoutModuleChecker {
 	private $request = null;
 
 	/**
+	 * @var User
+	 */
+	private $user = null;
+
+	/**
 	 *
 	 * @var PagePropHelper
 	 */
 	private $pagePropHelper = null;
+
+	/**
+	 * @var PermissionManager
+	 */
+	private $permManager = null;
 
 	/**
 	 *
@@ -44,9 +56,11 @@ class SkipArticleInfoFlyoutModuleChecker {
 		$config = $services->getConfigFactory()->makeConfig( 'bsg' );
 		$title = $context->getTitle();
 		$request = $context->getRequest();
+		$user = $context->getUser();
 		$pagePropHelper = $services->getService( 'BSUtilityFactory' )->getPagePropHelper( $title );
+		$permManager = $services->getPermissionManager();
 
-		$checker = new static( $config, $title, $request, $pagePropHelper );
+		$checker = new static( $config, $title, $request, $user, $pagePropHelper, $permManager );
 
 		// This is a design issue in `BlueSpice\ArticleInfo\Panel\Flyout`. If the "skip-callback"
 		//returns `false` the module is being skipped, not the other way round.
@@ -59,13 +73,24 @@ class SkipArticleInfoFlyoutModuleChecker {
 	 * @param Config $config
 	 * @param Title $title
 	 * @param WebRequest $request
+	 * @param User $user
 	 * @param PagePropHelper $pagePropHelper
+	 * @param PermissionManager $permManager
 	 */
-	public function __construct( $config, $title, $request, $pagePropHelper ) {
+	public function __construct(
+		$config,
+		$title,
+		$request,
+		User $user,
+		$pagePropHelper,
+		PermissionManager $permManager
+	) {
 		$this->config = $config;
 		$this->title = $title;
 		$this->request = $request;
+		$this->user = $user;
 		$this->pagePropHelper = $pagePropHelper;
+		$this->permManager = $permManager;
 	}
 
 	/**
@@ -77,7 +102,9 @@ class SkipArticleInfoFlyoutModuleChecker {
 			return true;
 		}
 
-		if ( !$this->title->exists() || !$this->title->userCan( 'read' ) ) {
+		if ( !$this->title->exists() ||
+			!$this->permManager->userCan( 'read', $this->user, $this->title )
+		) {
 			return true;
 		}
 

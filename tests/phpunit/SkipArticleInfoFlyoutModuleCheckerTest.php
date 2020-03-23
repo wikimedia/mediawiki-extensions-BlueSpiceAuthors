@@ -6,8 +6,10 @@ use BlueSpice\Authors\SkipArticleInfoFlyoutModuleChecker;
 use BlueSpice\Utility\PagePropHelper;
 use Config;
 use HashConfig;
+use Permissions\PermissionManager;
 use PHPUnit\Framework\TestCase;
 use Title;
+use User;
 use WebRequest;
 
 class SkipArticleInfoFlyoutModuleCheckerTest extends TestCase {
@@ -19,13 +21,17 @@ class SkipArticleInfoFlyoutModuleCheckerTest extends TestCase {
 		$config = $this->createMock( Config::class );
 		$title = $this->createMock( Title::class );
 		$request  = $this->createMock( WebRequest::class );
+		$user = $this->createMock( User::class );
 		$pagePropHelper  = $this->createMock( PagePropHelper::class );
+		$permManager = $this->createMock( PermissionManager::class );
 
 		$checker = new SkipArticleInfoFlyoutModuleChecker(
 			$config,
 			$title,
 			$request,
-			$pagePropHelper
+			$user,
+			$pagePropHelper,
+			$permManager
 		);
 
 		$this->assertInstanceOf(
@@ -56,20 +62,26 @@ class SkipArticleInfoFlyoutModuleCheckerTest extends TestCase {
 
 		$title = $this->createMock( Title::class );
 		$title->method( 'exists' )->willReturn( $titleExists );
-		$title->method( 'userCan' )->willReturn( $userCanRead );
 		$title->method( 'getNamespace' )->willReturn( $titleNamespace );
 
 		$request = $this->createMock( 'WebRequest' );
 		$request->method( 'getVal' )->willReturn( $webAction );
 
+		$user = $this->createMock( User::class );
+
 		$pagePropHelper = $this->createMock( 'BlueSpice\\Utility\\PagePropHelper' );
 		$pagePropHelper->method( 'getPageProp' )->willReturn( $noAuthorsPageProp );
+
+		$permManager = $this->createMock( PermissionManager::class );
+		$permManager->method( 'userCan' )->willReturn( $userCanRead );
 
 		$checker = new SkipArticleInfoFlyoutModuleChecker(
 			$config,
 			$title,
 			$request,
-			$pagePropHelper
+			$user,
+			$pagePropHelper,
+			$permManager
 		);
 
 		$this->assertEquals( $expectation, $checker->shouldSkip(), $message );
