@@ -1,10 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
+			"Carlosmg.dg",
 			"Fitoschido",
-			"Mcervera",
 			"Macofe",
-			"Carlosmg.dg"
+			"Mcervera"
 		]
 	},
 	"bs-authors-desc": "Muestra las imágenes de perfil de los autores de una página",

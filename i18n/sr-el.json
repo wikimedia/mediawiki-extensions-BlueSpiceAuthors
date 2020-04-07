@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"bs-authors-desc": "Prikazuje profilnu sliku autora stranice",
 	"prefs-authors": "Autori ove stranice",
 	"bs-authors-title": "{{PLURAL:$1|{{GENDER:$2|Autor}}|Autori}}",

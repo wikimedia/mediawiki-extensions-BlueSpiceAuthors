@@ -1,12 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
+			"Jeroen N",
+			"Mainframe98",
 			"Niknetniko",
 			"SPQRobin",
-			"Sjoerddebruin",
 			"Siebrand",
-			"Jeroen N",
-			"Mainframe98"
+			"Sjoerddebruin"
 		]
 	},
 	"bs-authors-desc": "Geeft de profielfoto weer van de auteurs van een pagina",
