@@ -1,6 +1,5 @@
 <?php
 
-
 namespace BlueSpice\Authors\Hook\BSInsertMagicAjaxGetData;
 
 use BlueSpice\InsertMagic\Hook\BSInsertMagicAjaxGetData;
