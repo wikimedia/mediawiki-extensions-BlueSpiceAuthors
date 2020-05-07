@@ -2,9 +2,9 @@
 	"@metadata": {
 		"authors": [
 			"Gomoko",
+			"Pols12",
 			"Wladek92",
-			"Zarisi",
-			"Pols12"
+			"Zarisi"
 		]
 	},
 	"bs-authors-desc": "Affiche l’image de profil des auteurs d’une page",

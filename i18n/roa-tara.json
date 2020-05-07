@@ -16,5 +16,6 @@
 	"bs-authors-navigation-link-text": "Auture",
 	"bs-authors-flyout-title": "Auture de sta pàgene",
 	"bs-authors-author-type-originator": "Autore origgenale",
-	"bs-authors-author-type-editor": "Cangiatore"
+	"bs-authors-author-type-editor": "Cangiatore",
+	"apihelp-bs-pageauthors-store-summary": "Elenghe de tutte le auture de 'na pàgene date jndr'à 'u condeste"
 }

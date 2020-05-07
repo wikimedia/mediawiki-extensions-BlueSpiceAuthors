@@ -1,11 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Liuxinyu970226",
-			"Justincheng12345",
 			"Cwlin0416",
+			"Justincheng12345",
+			"Kly",
 			"LNDDYL",
-			"Kly"
+			"Liuxinyu970226"
 		]
 	},
 	"bs-authors-desc": "顯示頁面作者的個人資料圖片",
