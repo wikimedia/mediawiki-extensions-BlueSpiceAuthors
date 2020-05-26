@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
+			"BaRaN6161 TURK",
 			"Baloch Afghanistan"
 		]
 	},
-	"bs-authors-title": "{{جمع:$1|{{جینسیت:$2|نویشتاروک}}|نویشتاروکان}}"
+	"bs-authors-title": "{{PLURAL:$1|{{جینسیت:$2|نویشتاروک}}|نویشتاروکان}}"
 }
