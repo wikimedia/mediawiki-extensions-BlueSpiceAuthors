@@ -99,7 +99,8 @@ class SkipArticleInfoFlyoutModuleCheckerTest extends TestCase {
 			[ true, true, false, 'view', NS_MAIN, null, true, 'Should bail out by read permission' ],
 			[ true, true, true, 'edit', NS_MAIN, null, true, 'Should bail out by web action' ],
 			[ true, true, true, 'view', NS_CATEGORY, null, true, 'Should bail out by title namespace' ],
-			[ true, true, true, 'view', NS_MAIN, '', true, 'Should bail out by magic word' ]
+			[ true, true, true, 'view', NS_MAIN, '', true, 'Should bail out by magic word' ],
+			[ true, false, true, 'view', NS_SPECIAL, null, true, 'Should bail out on specialpage' ],
 		];
 	}
 }
