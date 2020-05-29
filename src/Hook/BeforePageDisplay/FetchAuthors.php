@@ -20,8 +20,13 @@ class FetchAuthors extends BeforePageDisplay {
 			return true;
 		}
 
-		if ( in_array( $title->getNamespace(), [ NS_SPECIAL, NS_CATEGORY, NS_FILE ] ) ) {
-			return true;
+		if ( $title->isSpecialPage() ) {
+			return false;
+		}
+
+		$excludeNS = $this->getConfig()->get( 'AuthorsNamespaceBlacklist' );
+		if ( in_array( $title->getNamespace(), $excludeNS ) ) {
+			return false;
 		}
 
 		// Do not display if __NOAUTHORS__ keyword is found

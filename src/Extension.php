@@ -32,6 +32,35 @@
 
 namespace BlueSpice\Authors;
 
+use BlueSpice\Services;
+use IContextSource;
+
 class Extension extends \BlueSpice\Extension {
+
+	/**
+	 * Checks if the Readers segment should be added to the flyout
+	 *
+	 * @param IContextSource $context
+	 * @return bool
+	 */
+	public static function flyoutCheckPermissions( IContextSource $context ) {
+		$currentTitle = $context->getTitle();
+
+		if ( $currentTitle->isSpecialPage() ) {
+			return false;
+		}
+
+		$config = Services::getInstance()->getConfigFactory()->makeConfig( 'bsg' );
+		$excludeNS = $config->get( 'AuthorsNamespaceBlacklist' );
+		if ( in_array( $currentTitle->getNamespace(), $excludeNS ) ) {
+			return false;
+		}
+
+		if ( $currentTitle->userCan( 'read' ) == false ) {
+			return false;
+		}
+
+		return true;
+	}
 
 }
