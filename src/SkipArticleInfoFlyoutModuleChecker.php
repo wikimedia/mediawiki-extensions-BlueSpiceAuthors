@@ -77,15 +77,20 @@ class SkipArticleInfoFlyoutModuleChecker {
 			return true;
 		}
 
-		if ( !$this->title->exists() || !$this->title->userCan( 'read' ) ) {
-			return true;
-		}
-
 		if ( $this->request->getVal( 'action', 'view' ) != 'view' ) {
 			return true;
 		}
 
-		if ( in_array( $this->title->getNamespace(), [ NS_SPECIAL, NS_CATEGORY, NS_FILE ] ) ) {
+		$excludeNS = $this->config->get( 'AuthorsNamespaceBlacklist' );
+		if ( in_array( $this->title->getNamespace(), $excludeNS ) ) {
+			return true;
+		}
+
+		if ( !$this->title->exists() ) {
+			return true;
+		}
+
+		if ( !$this->title->userCan( 'read' ) ) {
 			return true;
 		}
 
