@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Arifin.wijaya"
+			"Arifin.wijaya",
+			"Diki Ananta"
 		]
 	},
 	"bs-authors-desc": "Menampilkan foto profil untuk penulis halaman",
 	"prefs-authors": "Penulis halaman ini",
-	"bs-authors-title": "{{PLURAL:$1|Penulis|Penulis}}",
+	"bs-authors-title": "{{PLURAL:$1|{{GENDER:$2|Penulis}}|Penulis}}",
 	"bs-authors-profileimage": "Foto profil",
 	"bs-authors-profileimage-change": "Ubah foto profil",
 	"bs-authors-show-all-authors": "Penulis lain tersedia",
