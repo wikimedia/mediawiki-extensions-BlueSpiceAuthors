@@ -3,6 +3,7 @@
 namespace BlueSpice\Authors;
 
 use BlueSpice\Services;
+use MediaWiki\MediaWikiServices;
 
 class AuthorsList {
 
@@ -136,15 +137,20 @@ class AuthorsList {
 	 */
 	protected function loadAllUserTexts() {
 		$dbr = $this->loadBalancer->getConnection( DB_REPLICA );
+		$query = MediaWikiServices::getInstance()->getRevisionStore()->getQueryInfo();
+		$query['fields'][] = 'MAX(rev_timestamp) AS ts';
+		$conds['rev_page'] = $this->title->getArticleID();
+		$options = [
+			'GROUP BY' => 'rev_user_text',
+			'ORDER BY' => 'ts DESC'
+		];
 		$res = $dbr->select(
-			[ 'revision' ],
-			[ 'rev_user_text', 'MAX(rev_timestamp) AS ts' ],
-			[ 'rev_page' => $this->title->getArticleID() ],
+			$query['tables'],
+			$query['fields'],
+			$conds,
 			__METHOD__,
-			[
-				'GROUP BY' => 'rev_user_text',
-				'ORDER BY' => 'ts DESC'
-			]
+			$options,
+			$query['joins']
 		);
 
 		if ( $res->numRows() == 0 ) {
