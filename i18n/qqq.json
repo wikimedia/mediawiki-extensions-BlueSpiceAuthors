@@ -2,7 +2,9 @@
 	"@metadata": {
 		"authors": [
 			"Liuxinyu970226",
-			"Robby"
+			"Robby",
+			"Shirayuki",
+			"Stephan Muggli <muggli@hallowelt.biz>"
 		]
 	},
 	"bs-authors-desc": "Used in [{{canonicalurl:Special:WikiAdmin|mode=ExtensionInfo}} Special:WikiAdmin?mode=ExtensionInfo], description of authors extension",
