@@ -6,7 +6,7 @@ use BlueSpice\Authors\SkipArticleInfoFlyoutModuleChecker;
 use BlueSpice\Utility\PagePropHelper;
 use Config;
 use HashConfig;
-use Permissions\PermissionManager;
+use MediaWiki\Permissions\PermissionManager;
 use PHPUnit\Framework\TestCase;
 use Title;
 use User;
