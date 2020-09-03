@@ -3,8 +3,8 @@
 namespace BlueSpice\Authors\Data\PageAuthors;
 
 use BlueSpice\Data\NoWriterException;
-use BlueSpice\Services;
 use IContextSource;
+use MediaWiki\MediaWikiServices;
 
 class Store implements \BlueSpice\Data\IStore {
 
@@ -28,9 +28,9 @@ class Store implements \BlueSpice\Data\IStore {
 	 */
 	public function getReader() {
 		return new Reader(
-			\MediaWiki\MediaWikiServices::getInstance()->getDBLoadBalancer(),
+			MediaWikiServices::getInstance()->getDBLoadBalancer(),
 			$this->context,
-			Services::getInstance()->getConfigFactory()->makeConfig( 'bsg' )
+			MediaWikiServices::getInstance()->getConfigFactory()->makeConfig( 'bsg' )
 		);
 	}
 
