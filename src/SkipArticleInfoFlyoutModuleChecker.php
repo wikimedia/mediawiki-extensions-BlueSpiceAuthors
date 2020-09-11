@@ -2,9 +2,9 @@
 
 namespace BlueSpice\Authors;
 
-use BlueSpice\Services;
 use BlueSpice\Utility\PagePropHelper;
 use Config;
+use MediaWiki\MediaWikiServices;
 use MediaWiki\Permissions\PermissionManager;
 use Title;
 use User;
@@ -52,7 +52,7 @@ class SkipArticleInfoFlyoutModuleChecker {
 	 * @return bool
 	 */
 	public static function callback( $context ) {
-		$services = Services::getInstance();
+		$services = MediaWikiServices::getInstance();
 		$config = $services->getConfigFactory()->makeConfig( 'bsg' );
 		$title = $context->getTitle();
 		$request = $context->getRequest();
