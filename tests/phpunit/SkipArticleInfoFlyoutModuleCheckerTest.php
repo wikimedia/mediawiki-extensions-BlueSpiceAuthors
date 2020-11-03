@@ -51,7 +51,13 @@ class SkipArticleInfoFlyoutModuleCheckerTest extends TestCase {
 	public function testShouldSkip( $authorsShowConfig, $titleExists, $userCanRead, $webAction,
 			$titleNamespace, $noAuthorsPageProp, $expectation, $message ) {
 		$config = new HashConfig( [
-			'AuthorsShow' => $authorsShowConfig
+			'AuthorsShow' => $authorsShowConfig,
+			// Default from `extension.json`
+			'AuthorsNamespaceBlacklist' => [
+				NS_FILE, NS_FILE_TALK,
+				NS_MEDIAWIKI, NS_MEDIAWIKI_TALK,
+				NS_CATEGORY, NS_CATEGORY_TALK
+			]
 		] );
 
 		$title = $this->createMock( Title::class );
