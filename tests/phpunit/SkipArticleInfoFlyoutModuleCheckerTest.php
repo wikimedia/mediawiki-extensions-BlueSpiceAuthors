@@ -43,12 +43,12 @@ class SkipArticleInfoFlyoutModuleCheckerTest extends TestCase {
 	/**
 	 *
 	 * @param array $authorsShowConfig
-	 * @param boolean $titleExists
-	 * @param boolean $userCanRead
+	 * @param bool $titleExists
+	 * @param bool $userCanRead
 	 * @param string $webAction
 	 * @param int $titleNamespace
 	 * @param string|null $noAuthorsPageProp
-	 * @param boolean $expectation
+	 * @param bool $expectation
 	 * @param string $message
 	 *
 	 * @covers SkipArticleInfoFlyoutModuleChecker::shouldSkip
