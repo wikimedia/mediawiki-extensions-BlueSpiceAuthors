@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Eleassar",
 			"Skalcaa"
 		]
 	},
@@ -11,5 +12,6 @@
 	"bs-authors-profileimage-change": "Spremeni sliko profila",
 	"bs-authors-show-all-authors": "Na voljo je več avtorjev",
 	"bs-authors-pref-show": "Prikaži avtorje",
-	"bs-authors-switch-description": "Skrije avtorje na tej strani."
+	"bs-authors-switch-description": "Skrije avtorje na tej strani.",
+	"bs-authors-navigation-link-text": "Avtorji"
 }

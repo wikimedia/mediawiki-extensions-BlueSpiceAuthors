@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Jakub Fabijan",
 			"Mirin",
 			"Zarisi"
 		]
@@ -11,5 +12,8 @@
 	"bs-authors-navigation-link-text": "Aŭtoroj",
 	"bs-authors-flyout-title": "Aŭtoroj de ĉi tiu paĝo",
 	"bs-authors-author-type-originator": "Originala aŭtoro",
-	"bs-authors-author-type-editor": "Redaktoro"
+	"bs-authors-author-type-editor": "Redaktoro",
+	"bs-authors-title": "{{PLURAL:$1|{{GENDER:$2|Aŭtoro|Aŭtorino}}|Aŭtoroj}}",
+	"bs-authors-profileimage": "Profila bildo",
+	"bs-authors-profileimage-change": "Ŝanĝi profilan bildon"
 }

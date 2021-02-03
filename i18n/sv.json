@@ -1,10 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"WikiPhoenix",
 			"Jopparn",
 			"Lokal Profil",
-			"Mjälten"
+			"Mjälten",
+			"WikiPhoenix"
 		]
 	},
 	"bs-authors-desc": "Visar profilbilden för författare till en sida",

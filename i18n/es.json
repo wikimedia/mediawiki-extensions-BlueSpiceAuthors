@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			"Carlosmg.dg",
 			"Fitoschido",
-			"Mcervera",
 			"Macofe",
-			"Carlosmg.dg"
+			"MarleneR329",
+			"Mcervera"
 		]
 	},
 	"bs-authors-desc": "Muestra las imágenes de perfil de los autores de una página",
@@ -19,5 +20,6 @@
 	"bs-authors-navigation-link-text": "Autores",
 	"bs-authors-flyout-title": "Autores de esta página",
 	"bs-authors-author-type-originator": "Autor original",
-	"bs-authors-author-type-editor": "Editor"
+	"bs-authors-author-type-editor": "Editor",
+	"apihelp-bs-pageauthors-store-summary": "Lista todos los autores de una página proporcionada en el contexto"
 }

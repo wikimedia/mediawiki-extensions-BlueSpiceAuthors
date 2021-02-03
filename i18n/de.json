@@ -1,10 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Stephan Muggli <muggli@hallowelt.biz>",
 			"Metalhead64",
+			"Mglaser",
 			"Smuggli",
-			"Mglaser"
+			"Stephan Muggli <muggli@hallowelt.biz>"
 		]
 	},
 	"bs-authors-desc": "Zeigt Profilbilder für Autoren einer Seite an",
