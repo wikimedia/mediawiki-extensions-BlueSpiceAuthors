@@ -3,6 +3,7 @@
 namespace BlueSpice\Authors;
 
 use MediaWiki\MediaWikiServices;
+use MediaWiki\Revision\RevisionRecord;
 
 class AuthorsList {
 
@@ -57,12 +58,12 @@ class AuthorsList {
 
 	/**
 	 * Find first editor. If editor is on blacklist return empty string.
-	 * @param Revision $revision
+	 * @param RevisionRecord $revision
 	 * @return string The originators username
 	 *
 	 */
 	public function getOriginator( $revision ) {
-		if ( $revision instanceof \Revision === false ) {
+		if ( $revision instanceof \RevisionRecord === false ) {
 			return '';
 		}
 
@@ -70,7 +71,7 @@ class AuthorsList {
 			return '';
 		}
 
-		$originator = $revision->getUserText();
+		$originator = $revision->getUser()->getName();
 
 		if ( \User::isIP( $originator ) ) {
 			return '';
