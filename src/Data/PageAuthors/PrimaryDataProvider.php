@@ -4,6 +4,7 @@ namespace BlueSpice\Authors\Data\PageAuthors;
 
 use BlueSpice\Authors\AuthorsList;
 use BlueSpice\Data\IPrimaryDataProvider;
+use MediaWiki\MediaWikiServices;
 use ReaderParams;
 use Title;
 use User;
@@ -56,7 +57,8 @@ class PrimaryDataProvider implements IPrimaryDataProvider {
 	public function makeData( $params ) {
 		$list = new AuthorsList( $this->title, $this->authorsBlacklist );
 
-		$revision = $this->title->getFirstRevision();
+		$revisionLookup = MediaWikiServices::getInstance()->getRevisionLookup();
+		$revision = $revisionLookup->getFirstRevision( $this->title );
 		$originator = $list->getOriginator( $revision );
 		$editors = $list->getEditors();
 
