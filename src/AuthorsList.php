@@ -73,7 +73,8 @@ class AuthorsList {
 
 		$originator = $revision->getUser()->getName();
 
-		if ( \User::isIP( $originator ) ) {
+		$userNameUtils = MediaWikiServices::getInstance()->getUserNameUtils();
+		if ( $userNameUtils->isIP( $originator ) ) {
 			return '';
 		}
 		if ( in_array( $originator, $this->blacklist ) ) {
@@ -102,7 +103,8 @@ class AuthorsList {
 				break;
 			}
 
-			if ( \User::isIP( $usertexts[$items] ) ) {
+			$userNameUtils = MediaWikiServices::getInstance()->getUserNameUtils();
+			if ( $userNameUtils->isIP( $usertexts[$items] ) ) {
 				unset( $usertexts[$items] );
 				$items++;
 				continue;
