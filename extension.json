@@ -20,11 +20,11 @@
 			"Extensions": {
 				"BlueSpiceAuthors": {
 					"className": "\\BlueSpice\\Authors\\Extension",
-					"extPath": "/BlueSpiceAuthors",
-					"configDefinitions": {
-						"AuthorsShow": "\\BlueSpice\\Authors\\ConfigDefinition\\AuthorsShow::getInstance"
-					}
+					"extPath": "/BlueSpiceAuthors"
 				}
+			},
+			"ConfigDefinitionRegistry": {
+				"AuthorsShow": "\\BlueSpice\\Authors\\ConfigDefinition\\AuthorsShow::getInstance"
 			}
 		},
 		"BlueSpiceArticleInfo": {
