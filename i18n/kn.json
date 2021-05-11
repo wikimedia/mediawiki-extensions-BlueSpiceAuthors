@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"VASANTH S.N."
+			"VASANTH S.N.",
+			"ಮಲ್ನಾಡಾಚ್ ಕೊಂಕ್ಣೊ"
 		]
 	},
 	"bs-authors-desc": "ಪುಟದ ಲೇಖಕರನ್ನು ಅವರ ಭಾವಚಿತ್ರದೊಂದಿಗೆ ಪ್ರದರ್ಶಿಸುತ್ತದೆ",
-	"prefs-authors": "ಈ ಲೇಖನದ ಲೇಖಕರು",
+	"prefs-authors": "ಈ ಪುಟದ ಲೇಖಕರು",
 	"bs-authors-title": "{{PLURAL:$1|ಲೇಖಕ|ಲೇಖಕರು}}",
 	"bs-authors-profileimage": "ವ್ಯಕ್ತಿ ಚಿತ್ರ",
 	"bs-authors-profileimage-change": "ವ್ಯಕ್ತಿಚಿತ್ರದ ಭಾವಚಿತ್ರವನ್ನು ಬದಲಾಯಿಸಿ",
