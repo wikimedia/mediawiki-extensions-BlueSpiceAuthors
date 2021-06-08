@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Joquliina",
 			"Nike",
 			"Pyscowicz",
 			"Silvonen"
@@ -9,5 +10,8 @@
 	"bs-authors-author-type-originator": "Alkuperäinen luoja",
 	"bs-authors-author-type-editor": "Muokkaaja",
 	"bs-authors-profileimage": "Profiilikuva",
-	"bs-authors-profileimage-change": "Vaihda profiilikuva"
+	"bs-authors-profileimage-change": "Vaihda profiilikuva",
+	"prefs-authors": "Tämän sivun kirjoittajat",
+	"bs-authors-navigation-link-text": "Kirjoittajat",
+	"bs-authors-flyout-title": "Tämän sivun kirjoittajat"
 }
