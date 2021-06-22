@@ -25,4 +25,12 @@ class AuthorsShow extends BooleanSetting {
 	public function getLabelMessageKey() {
 		return 'bs-authors-pref-show';
 	}
+
+	/**
+	 *
+	 * @return string
+	 */
+	public function getHelpMessageKey() {
+		return 'bs-authors-pref-show-help';
+	}
 }
