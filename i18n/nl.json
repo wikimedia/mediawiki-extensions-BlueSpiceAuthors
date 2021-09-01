@@ -3,6 +3,7 @@
 		"authors": [
 			"Jeroen N",
 			"Mainframe98",
+			"McDutchie",
 			"Niknetniko",
 			"SPQRobin",
 			"Siebrand",
@@ -21,5 +22,6 @@
 	"bs-authors-navigation-link-text": "Auteurs",
 	"bs-authors-flyout-title": "Auteurs van deze pagina",
 	"bs-authors-author-type-originator": "Oorspronkelijke auteur",
-	"bs-authors-author-type-editor": "Redacteur"
+	"bs-authors-author-type-editor": "Redacteur",
+	"apihelp-bs-pageauthors-store-summary": "Geeft een overzicht van alle auteurs van een in de context opgegeven pagina"
 }
