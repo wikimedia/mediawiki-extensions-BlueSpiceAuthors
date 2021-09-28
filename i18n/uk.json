@@ -3,6 +3,7 @@
 		"authors": [
 			"Andriykopanytsia",
 			"Base",
+			"DDPAT",
 			"Piramidion",
 			"Ата"
 		]
@@ -20,5 +21,6 @@
 	"bs-authors-flyout-title": "Автори цієї сторінки",
 	"bs-authors-author-type-originator": "Оригінальний автор",
 	"bs-authors-author-type-editor": "Редактор",
-	"apihelp-bs-pageauthors-store-summary": "Перелічити всіх авторів сторінки, поданої в контексті"
+	"apihelp-bs-pageauthors-store-summary": "Перелічити всіх авторів сторінки, поданої в контексті",
+	"bs-authors-pref-show-help": "Показує редакторам сторінок інформацію про сторінку в інструментах управління якістю."
 }
