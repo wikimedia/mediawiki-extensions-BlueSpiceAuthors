@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"DreZhsh",
 			"Gomoko",
 			"Pols12",
 			"Verdy p",
@@ -21,5 +22,6 @@
 	"bs-authors-flyout-title": "Auteurs de cette page",
 	"bs-authors-author-type-originator": "Auteur originel",
 	"bs-authors-author-type-editor": "Rédacteur",
-	"apihelp-bs-pageauthors-store-summary": "Lister tous les auteurs d’une page fournie dans le contexte"
+	"apihelp-bs-pageauthors-store-summary": "Lister tous les auteurs d’une page fournie dans le contexte",
+	"bs-authors-pref-show-help": "Affiche les éditeurs de la page sur les informations de la page sous les outils de gestion de la qualité."
 }
