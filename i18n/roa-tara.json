@@ -17,5 +17,6 @@
 	"bs-authors-flyout-title": "Auture de sta pàgene",
 	"bs-authors-author-type-originator": "Autore origgenale",
 	"bs-authors-author-type-editor": "Cangiatore",
-	"apihelp-bs-pageauthors-store-summary": "Elenghe de tutte le auture de 'na pàgene date jndr'à 'u condeste"
+	"apihelp-bs-pageauthors-store-summary": "Elenghe de tutte le auture de 'na pàgene date jndr'à 'u condeste",
+	"bs-authors-pref-show-help": "Fà 'ndrucà le cangiature d'a pàgene sus a le 'mbormaziune d'a pàgene sotte a le struminde d'a gestione d'a qualitate."
 }
