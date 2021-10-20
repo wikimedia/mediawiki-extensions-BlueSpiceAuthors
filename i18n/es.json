@@ -5,7 +5,8 @@
 			"Fitoschido",
 			"Macofe",
 			"MarleneR329",
-			"Mcervera"
+			"Mcervera",
+			"Whovian Biologist"
 		]
 	},
 	"bs-authors-desc": "Muestra las imágenes de perfil de los autores de una página",
@@ -21,5 +22,6 @@
 	"bs-authors-flyout-title": "Autores de esta página",
 	"bs-authors-author-type-originator": "Autor original",
 	"bs-authors-author-type-editor": "Editor",
-	"apihelp-bs-pageauthors-store-summary": "Lista todos los autores de una página proporcionada en el contexto"
+	"apihelp-bs-pageauthors-store-summary": "Lista todos los autores de una página proporcionada en el contexto",
+	"bs-authors-pref-show-help": "Muestra los editores de la página en la información de la página en las herramientas de gestión de calidad."
 }

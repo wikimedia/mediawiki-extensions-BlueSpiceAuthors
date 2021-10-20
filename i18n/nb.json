@@ -17,5 +17,6 @@
 	"bs-authors-flyout-title": "Forfattere av denne siden",
 	"bs-authors-author-type-originator": "Opprinnelig bidragsyter",
 	"bs-authors-author-type-editor": "Bidragsyter",
-	"apihelp-bs-pageauthors-store-summary": "Liste opp alle forfatterne av en side gitt i konteksten"
+	"apihelp-bs-pageauthors-store-summary": "Liste opp alle forfatterne av en side gitt i konteksten",
+	"bs-authors-pref-show-help": "Viser sidens forfattere i sideinformasjonen under kvalitetsbehandlingsverktøyene."
 }
