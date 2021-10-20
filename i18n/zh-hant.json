@@ -21,5 +21,6 @@
 	"bs-authors-flyout-title": "此頁面作者",
 	"bs-authors-author-type-originator": "原始作者",
 	"bs-authors-author-type-editor": "編輯者",
-	"apihelp-bs-pageauthors-store-summary": "列出提供在上下文裡的所有頁面作者"
+	"apihelp-bs-pageauthors-store-summary": "列出提供在上下文裡的所有頁面作者",
+	"bs-authors-pref-show-help": "顯示在品質管理工具下頁面資訊的頁面編輯器。"
 }

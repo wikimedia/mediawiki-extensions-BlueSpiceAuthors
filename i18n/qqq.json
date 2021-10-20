@@ -22,5 +22,4 @@
 	"bs-authors-author-type-editor": "Label for author type in flyout grid. User that edited (contributed to) the page",
 	"apihelp-bs-pageauthors-store-summary": "{{doc-apihelp-summary|bs-pageauthors-store}}",
 	"bs-authors-pref-show-help": "Description for config variable \"AuthorsShow\""
-
 }
