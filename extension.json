@@ -68,7 +68,13 @@
 	},
 	"Hooks": {
 		"BSInsertMagicAjaxGetData": "\\BlueSpice\\Authors\\Hook\\BSInsertMagicAjaxGetData\\Authors::callback",
-		"GetDoubleUnderscoreIDs": "\\BlueSpice\\Authors\\Hook\\GetDoubleUnderscoreIDs\\AddNoAuthors::callback"
+		"GetDoubleUnderscoreIDs": "\\BlueSpice\\Authors\\Hook\\GetDoubleUnderscoreIDs\\AddNoAuthors::callback",
+		"StandardDialogsRegisterPageInfoPanelModules": "standard-dialogs"
+	},
+	"HookHandlers": {
+		"standard-dialogs": {
+			"class": "\\BlueSpice\\Authors\\HookHandler\\StandardDialogs"
+		}
 	},
 	"ResourceModules": {
 		"ext.bluespice.authors.flyout": {
@@ -87,6 +93,20 @@
 			"dependencies": [
 				"ext.bluespice",
 				"ext.bluespice.extjs"
+			]
+		},
+		"ext.bluespice.authors.dialoginfo.pages": {
+			"scripts": [
+				"ui/page/bluespice.authors.AuthorsInformationPage.js"
+			],
+			"messages": [
+				"bs-authors-info-dialog"
+			],
+			"styles": [
+				"styles/bluespice.authors.less"
+			],
+			"dependencies": [
+				"ext.bluespice"
 			]
 		}
 	},
