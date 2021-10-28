@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Alirezaaa",
-			"FarsiNevis"
+			"FarsiNevis",
+			"Jeeputer"
 		]
 	},
 	"bs-authors-desc": "تصویر مشخصات را برای نویسنده‌های یک صفحه نشان می‌دهد",
@@ -17,5 +18,6 @@
 	"bs-authors-navigation-link-text": "پدیدآوران",
 	"bs-authors-flyout-title": "پدیدآوران این صفحه",
 	"bs-authors-author-type-originator": "پدیدآور اصلی",
-	"bs-authors-author-type-editor": "ویرایشگر"
+	"bs-authors-author-type-editor": "ویرایشگر",
+	"bs-authors-info-dialog": "نویسنده‌های این صفحه"
 }
