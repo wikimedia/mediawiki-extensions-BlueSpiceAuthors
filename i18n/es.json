@@ -3,6 +3,7 @@
 		"authors": [
 			"Carlosmg.dg",
 			"Fitoschido",
+			"Jakeukalane",
 			"Macofe",
 			"MarleneR329",
 			"Mcervera",
@@ -23,5 +24,6 @@
 	"bs-authors-author-type-originator": "Autor original",
 	"bs-authors-author-type-editor": "Editor",
 	"apihelp-bs-pageauthors-store-summary": "Lista todos los autores de una página proporcionada en el contexto",
-	"bs-authors-pref-show-help": "Muestra los editores de la página en la información de la página en las herramientas de gestión de calidad."
+	"bs-authors-pref-show-help": "Muestra los editores de la página en la información de la página en las herramientas de gestión de calidad.",
+	"bs-authors-info-dialog": "Autores de esta página"
 }
