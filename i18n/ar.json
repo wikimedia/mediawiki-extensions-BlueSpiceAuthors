@@ -19,5 +19,6 @@
 	"bs-authors-flyout-title": "مؤلفو هذه الصفحة",
 	"bs-authors-author-type-originator": "المؤلف الأصلي",
 	"bs-authors-author-type-editor": "محرر",
-	"apihelp-bs-pageauthors-store-summary": "سرد جميع مؤلفي الصفحة المتوفرة في السياق"
+	"apihelp-bs-pageauthors-store-summary": "سرد جميع مؤلفي الصفحة المتوفرة في السياق",
+	"bs-authors-info-dialog": "مؤلفو هذه الصفحة"
 }
