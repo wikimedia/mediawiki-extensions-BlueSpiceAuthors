@@ -23,5 +23,6 @@
 	"bs-authors-flyout-title": "Auteurs van deze pagina",
 	"bs-authors-author-type-originator": "Oorspronkelijke auteur",
 	"bs-authors-author-type-editor": "Redacteur",
-	"apihelp-bs-pageauthors-store-summary": "Geeft een overzicht van alle auteurs van een in de context opgegeven pagina"
+	"apihelp-bs-pageauthors-store-summary": "Geeft een overzicht van alle auteurs van een in de context opgegeven pagina",
+	"bs-authors-info-dialog": "Auteurs van deze pagina"
 }

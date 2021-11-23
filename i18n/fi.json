@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Joquliina",
+			"MITO",
 			"Nike",
 			"Pyscowicz",
 			"Silvonen"
@@ -13,5 +14,6 @@
 	"bs-authors-author-type-editor": "Muokkaaja",
 	"prefs-authors": "Tämän sivun kirjoittajat",
 	"bs-authors-navigation-link-text": "Kirjoittajat",
-	"bs-authors-flyout-title": "Tämän sivun kirjoittajat"
+	"bs-authors-flyout-title": "Tämän sivun kirjoittajat",
+	"bs-authors-info-dialog": "Tämän sivun kirjoittajat"
 }
