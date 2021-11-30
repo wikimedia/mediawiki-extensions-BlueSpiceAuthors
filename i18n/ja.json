@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Aefgh39622",
+			"RYOUMA1117",
 			"Shirayuki"
 		]
 	},
@@ -17,5 +18,6 @@
 	"bs-authors-navigation-link-text": "作者",
 	"bs-authors-flyout-title": "このページの作者",
 	"bs-authors-author-type-originator": "元の作者",
-	"bs-authors-author-type-editor": "編集者"
+	"bs-authors-author-type-editor": "編集者",
+	"bs-authors-info-dialog": "このページの作者"
 }

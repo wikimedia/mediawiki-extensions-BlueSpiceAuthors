@@ -5,7 +5,8 @@
 			"Justincheng12345",
 			"Kly",
 			"LNDDYL",
-			"Liuxinyu970226"
+			"Liuxinyu970226",
+			"Winston Sung"
 		]
 	},
 	"bs-authors-desc": "顯示頁面作者的個人資料圖片",
@@ -22,5 +23,6 @@
 	"bs-authors-author-type-originator": "原始作者",
 	"bs-authors-author-type-editor": "編輯者",
 	"apihelp-bs-pageauthors-store-summary": "列出提供在上下文裡的所有頁面作者",
-	"bs-authors-pref-show-help": "顯示在品質管理工具下頁面資訊的頁面編輯器。"
+	"bs-authors-pref-show-help": "顯示在品質管理工具下頁面資訊的頁面編輯器。",
+	"bs-authors-info-dialog": "此頁面作者"
 }
