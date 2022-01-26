@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Jon Harald Søby"
+			"Jon Harald Søby",
+			"Abuluntu"
 		]
 	},
 	"bs-authors-desc": "Viser profilbildet til forfatterne av en side",
@@ -16,6 +17,6 @@
 	"bs-authors-navigation-link-text": "Forfattere",
 	"bs-authors-flyout-title": "Forfattere av denne siden",
 	"bs-authors-author-type-originator": "Opprinnelig bidragsyter",
-	"bs-authors-author-type-editor": "Bidragsyter",
+	"bs-authors-author-type-editor": "Bruker",
 	"apihelp-bs-pageauthors-store-summary": "Liste opp alle forfatterne av en side gitt i konteksten"
 }
