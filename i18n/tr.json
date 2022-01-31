@@ -2,10 +2,10 @@
 	"@metadata": {
 		"authors": [
 			"BaRaN6161 TURK",
-			"Hedda",
-			"Sayginer",
 			"Can",
-			"SaldırganSincap"
+			"Hedda",
+			"SaldırganSincap",
+			"Sayginer"
 		]
 	},
 	"bs-authors-desc": "Bir sayfanın yazarları için profil resmini gösterir",
