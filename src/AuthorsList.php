@@ -164,8 +164,6 @@ class AuthorsList {
 			$authors[] = $row->rev_user_text;
 		}
 
-		$dbr->freeResult( $res );
-
 		return $authors;
 	}
 }
