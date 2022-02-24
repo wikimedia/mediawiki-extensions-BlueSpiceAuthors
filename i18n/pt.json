@@ -20,5 +20,7 @@
 	"bs-authors-flyout-title": "Autores desta página",
 	"bs-authors-author-type-originator": "Autor original",
 	"bs-authors-author-type-editor": "Editor",
-	"apihelp-bs-pageauthors-store-summary": "Listar todos os autores de uma página fornecida no contexto"
+	"apihelp-bs-pageauthors-store-summary": "Listar todos os autores de uma página fornecida no contexto",
+	"bs-authors-pref-show-help": "Mostra os editores da página na informação da página nas ferramentas de gestão de qualidade.",
+	"bs-authors-info-dialog": "Autores desta página"
 }
