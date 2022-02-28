@@ -3,6 +3,7 @@
 		"authors": [
 			"Eduardo Addad de Oliveira",
 			"Eduardoaddad",
+			"Juan90264",
 			"Rodrigo codignoli"
 		]
 	},
@@ -20,5 +21,6 @@
 	"bs-authors-author-type-originator": "Autor original",
 	"bs-authors-author-type-editor": "Editor",
 	"apihelp-bs-pageauthors-store-summary": "Listar todos os autores de uma página fornecida no contexto",
+	"bs-authors-pref-show-help": "Mostra os editores de página nas informações da página nas ferramentas de gerenciamento de qualidade.",
 	"bs-authors-info-dialog": "Autores desta página"
 }
