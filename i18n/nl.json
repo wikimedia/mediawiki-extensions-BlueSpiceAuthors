@@ -7,7 +7,8 @@
 			"Niknetniko",
 			"SPQRobin",
 			"Siebrand",
-			"Sjoerddebruin"
+			"Sjoerddebruin",
+			"Romaine"
 		]
 	},
 	"bs-authors-desc": "Geeft de profielfoto weer van de auteurs van een pagina",
@@ -24,5 +25,6 @@
 	"bs-authors-author-type-originator": "Oorspronkelijke auteur",
 	"bs-authors-author-type-editor": "Redacteur",
 	"apihelp-bs-pageauthors-store-summary": "Geeft een overzicht van alle auteurs van een in de context opgegeven pagina",
+	"bs-authors-pref-show-help": "Toont de paginabewerkers in de pagina-informatie onder de tools voor kwaliteitsbeheer.",
 	"bs-authors-info-dialog": "Auteurs van deze pagina"
 }
