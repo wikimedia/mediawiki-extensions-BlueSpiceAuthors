@@ -1,4 +1,5 @@
 {
+	"name": "BlueSpiceAuthors",
 	"private": true,
 	"scripts": {
 		"test": "grunt test"
