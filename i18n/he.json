@@ -4,7 +4,8 @@
 			"Erelon",
 			"Guycn2",
 			"Steeve815",
-			"ערן"
+			"ערן",
+			"Ex-Diktator"
 		]
 	},
 	"bs-authors-desc": "הצגת תמונת הפרופיל עבור מחברים של דף",
@@ -19,5 +20,6 @@
 	"bs-authors-navigation-link-text": "מחברים",
 	"bs-authors-flyout-title": "יוצרי הדף הזה",
 	"bs-authors-author-type-originator": "יוצר הדף",
-	"bs-authors-author-type-editor": "עורך"
+	"bs-authors-author-type-editor": "עורך",
+	"apihelp-bs-pageauthors-store-summary": "רישום כל מחברי הדף כפי שסופקו בהקשר"
 }
