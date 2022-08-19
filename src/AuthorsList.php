@@ -63,7 +63,7 @@ class AuthorsList {
 	 *
 	 */
 	public function getOriginator( $revision ) {
-		if ( $revision instanceof \RevisionRecord === false ) {
+		if ( $revision instanceof RevisionRecord === false ) {
 			return '';
 		}
 
