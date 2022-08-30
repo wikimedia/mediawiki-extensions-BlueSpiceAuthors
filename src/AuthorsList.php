@@ -38,6 +38,11 @@ class AuthorsList {
 	protected $more = false;
 
 	/**
+	 * @var MediaWikiServices
+	 */
+	private $services = null;
+
+	/**
 	 *
 	 * @param \Title $title
 	 * @param array $blacklist
@@ -49,10 +54,10 @@ class AuthorsList {
 		$this->blacklist = $blacklist;
 		$this->loadBalancer = $loadBalancer;
 		$this->limit = $limit;
+		$this->services = MediaWikiServices::getInstance();
 
 		if ( $this->loadBalancer === null ) {
-			$services = MediaWikiServices::getInstance();
-			$this->loadBalancer = $services->getDBLoadBalancer();
+			$this->loadBalancer = $this->services->getDBLoadBalancer();
 		}
 	}
 
@@ -73,8 +78,7 @@ class AuthorsList {
 
 		$originator = $revision->getUser()->getName();
 
-		$userNameUtils = MediaWikiServices::getInstance()->getUserNameUtils();
-		if ( $userNameUtils->isIP( $originator ) ) {
+		if ( $this->services->getUserNameUtils()->isIP( $originator ) ) {
 			return '';
 		}
 		if ( in_array( $originator, $this->blacklist ) ) {
@@ -96,6 +100,7 @@ class AuthorsList {
 		$count = count( $usertexts );
 		$items = 0;
 		$editors = [];
+		$userNameUtils = $this->services->getUserNameUtils();
 
 		while ( $items < $count ) {
 			if ( $this->limit && $items > ( $this->limit - 1 ) ) {
@@ -103,7 +108,6 @@ class AuthorsList {
 				break;
 			}
 
-			$userNameUtils = MediaWikiServices::getInstance()->getUserNameUtils();
 			if ( $userNameUtils->isIP( $usertexts[$items] ) ) {
 				unset( $usertexts[$items] );
 				$items++;
@@ -139,7 +143,7 @@ class AuthorsList {
 	 */
 	protected function loadAllUserTexts() {
 		$dbr = $this->loadBalancer->getConnection( DB_REPLICA );
-		$query = MediaWikiServices::getInstance()->getRevisionStore()->getQueryInfo();
+		$query = $this->services->getRevisionStore()->getQueryInfo();
 		$query['fields'][] = 'MAX(rev_timestamp) AS ts';
 		$conds['rev_page'] = $this->title->getArticleID();
 		$options = [
