@@ -37,10 +37,8 @@ class AuthorsList {
 	 */
 	protected $more = false;
 
-	/**
-	 * @var MediaWikiServices
-	 */
-	private $services = null;
+	/** @var MediaWikiServices */
+	protected $services = null;
 
 	/**
 	 *
