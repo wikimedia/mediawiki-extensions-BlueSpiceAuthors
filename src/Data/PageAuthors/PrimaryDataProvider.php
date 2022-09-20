@@ -7,7 +7,6 @@ use BlueSpice\Data\IPrimaryDataProvider;
 use MediaWiki\MediaWikiServices;
 use ReaderParams;
 use Title;
-use User;
 use Wikimedia\Rdbms\LoadBalancer;
 
 class PrimaryDataProvider implements IPrimaryDataProvider {
@@ -57,13 +56,14 @@ class PrimaryDataProvider implements IPrimaryDataProvider {
 	public function makeData( $params ) {
 		$list = new AuthorsList( $this->title, $this->authorsBlacklist );
 
-		$revisionLookup = MediaWikiServices::getInstance()->getRevisionLookup();
-		$revision = $revisionLookup->getFirstRevision( $this->title );
-		$originator = $list->getOriginator( $revision );
+		$services = MediaWikiServices::getInstance();
+		$firstRev = $services->getRevisionLookup()->getFirstRevision( $this->title );
+		$originator = $list->getOriginator( $firstRev );
+		$userFactory = $services->getUserFactory();
 		$editors = $list->getEditors();
 
 		if ( $originator !== '' ) {
-			$user = User::newFromName( $originator );
+			$user = $userFactory->newFromName( $originator );
 			if ( $user instanceof \User ) {
 				$this->appendRowToData( [
 					'user_name' => $user->getName(),
@@ -73,7 +73,7 @@ class PrimaryDataProvider implements IPrimaryDataProvider {
 		}
 
 		foreach ( $editors as $editor ) {
-			$user = User::newFromName( $editor );
+			$user = $userFactory->newFromName( $editor );
 			if ( $user instanceof \User === false ) {
 				continue;
 			}

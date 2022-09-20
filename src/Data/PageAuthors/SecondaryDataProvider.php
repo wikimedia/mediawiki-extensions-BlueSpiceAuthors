@@ -4,6 +4,7 @@ namespace BlueSpice\Authors\Data\PageAuthors;
 
 use BlueSpice\Renderer\Params;
 use BlueSpice\RendererFactory;
+use MediaWiki\MediaWikiServices;
 use User;
 
 class SecondaryDataProvider extends \BlueSpice\Data\SecondaryDataProvider {
@@ -27,7 +28,8 @@ class SecondaryDataProvider extends \BlueSpice\Data\SecondaryDataProvider {
 	 * @param Record &$dataSet
 	 */
 	protected function doExtend( &$dataSet ) {
-		$user = User::newFromName( $dataSet->get( Record::USER_NAME ) );
+		$user = MediaWikiServices::getInstance()->getUserFactory()
+			->newFromName( $dataSet->get( Record::USER_NAME ) );
 		$dataSet->set( Record::USER_IMAGE_HTML, $this->makeImage( $user ) );
 	}
 
