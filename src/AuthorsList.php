@@ -99,6 +99,7 @@ class AuthorsList {
 		$items = 0;
 		$editors = [];
 		$userNameUtils = $this->services->getUserNameUtils();
+		$userFactory = $this->services->getUserFactory();
 
 		while ( $items < $count ) {
 			if ( $this->limit && $items > ( $this->limit - 1 ) ) {
@@ -112,7 +113,7 @@ class AuthorsList {
 				continue;
 			}
 
-			$user = \User::newFromName( $usertexts[$items] );
+			$user = $userFactory->newFromName( $usertexts[$items] );
 
 			if ( !is_object( $user ) || in_array( $user->getName(), $this->blacklist ) ) {
 				unset( $usertexts[$items] );
