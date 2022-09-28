@@ -57,9 +57,10 @@ class PrimaryDataProvider implements IPrimaryDataProvider {
 	public function makeData( $params ) {
 		$list = new AuthorsList( $this->title, $this->authorsBlacklist );
 
-		$revisionLookup = MediaWikiServices::getInstance()->getRevisionLookup();
-		$revision = $revisionLookup->getFirstRevision( $this->title );
-		$originator = $list->getOriginator( $revision );
+		$services = MediaWikiServices::getInstance();
+		$firstRev = $services->getRevisionLookup()
+			->getFirstRevision( $this->title->toPageIdentity() );
+		$originator = $list->getOriginator( $firstRev );
 		$editors = $list->getEditors();
 
 		if ( $originator !== '' ) {
