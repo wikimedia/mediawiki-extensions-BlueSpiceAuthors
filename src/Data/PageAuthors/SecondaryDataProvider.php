@@ -7,7 +7,7 @@ use BlueSpice\RendererFactory;
 use MediaWiki\MediaWikiServices;
 use User;
 
-class SecondaryDataProvider extends \BlueSpice\Data\SecondaryDataProvider {
+class SecondaryDataProvider extends \MWStake\MediaWiki\Component\DataStore\SecondaryDataProvider {
 
 	/**
 	 *

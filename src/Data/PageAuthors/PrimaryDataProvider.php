@@ -3,8 +3,8 @@
 namespace BlueSpice\Authors\Data\PageAuthors;
 
 use BlueSpice\Authors\AuthorsList;
-use BlueSpice\Data\IPrimaryDataProvider;
 use MediaWiki\MediaWikiServices;
+use MWStake\MediaWiki\Component\DataStore\IPrimaryDataProvider;
 use ReaderParams;
 use Title;
 use Wikimedia\Rdbms\LoadBalancer;
