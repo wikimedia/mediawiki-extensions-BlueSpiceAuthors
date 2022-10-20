@@ -2,11 +2,12 @@
 
 namespace BlueSpice\Authors\Data\PageAuthors;
 
-use BlueSpice\Data\NoWriterException;
 use IContextSource;
 use MediaWiki\MediaWikiServices;
+use MWStake\MediaWiki\Component\DataStore\IStore;
+use MWStake\MediaWiki\Component\DataStore\NoWriterException;
 
-class Store implements \BlueSpice\Data\IStore {
+class Store implements IStore {
 
 	/**
 	 *
