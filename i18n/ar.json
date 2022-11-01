@@ -20,5 +20,6 @@
 	"bs-authors-author-type-originator": "المؤلف الأصلي",
 	"bs-authors-author-type-editor": "محرر",
 	"apihelp-bs-pageauthors-store-summary": "سرد جميع مؤلفي الصفحة المتوفرة في السياق",
+	"bs-authors-pref-show-help": "يعرض محرري الصفحة على معلومات الصفحة ضمن أدوات إدارة الجودة.",
 	"bs-authors-info-dialog": "مؤلفو هذه الصفحة"
 }
