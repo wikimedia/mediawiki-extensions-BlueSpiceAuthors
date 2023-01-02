@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Chrumps",
+			"Superjurek",
 			"Vengir"
 		]
 	},
@@ -15,5 +16,6 @@
 	"bs-authors-navigation-link-title": "Autorzy tej strony",
 	"bs-authors-navigation-link-text": "Autorzy",
 	"bs-authors-flyout-title": "Autorzy tej strony",
-	"bs-authors-author-type-editor": "Edytor"
+	"bs-authors-author-type-editor": "Edytor",
+	"bs-authors-author-type-originator": "Oryginalny autor"
 }
