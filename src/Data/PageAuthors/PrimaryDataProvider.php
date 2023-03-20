@@ -60,6 +60,7 @@ class PrimaryDataProvider implements IPrimaryDataProvider {
 		$firstRev = $services->getRevisionLookup()
 			->getFirstRevision( $this->title->toPageIdentity() );
 		$originator = $list->getOriginator( $firstRev );
+		$userFactory = $services->getUserFactory();
 		$editors = $list->getEditors();
 
 		if ( $originator !== '' ) {
