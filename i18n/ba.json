@@ -2,15 +2,16 @@
 	"@metadata": {
 		"authors": [
 			"Sagan",
+			"З. ӘЙЛЕ",
 			"Рустам Нурыев"
 		]
 	},
-	"bs-authors-desc": "Бит авторҙарының профиль картинаһын күрһәтә",
+	"bs-authors-desc": "Бит авторҙарының профиль һүрәтен күрһәтә",
 	"prefs-authors": "Был бит авторҙары",
-	"bs-authors-title": "{{GENDER:$2|Автор{{PLURAL:$1|}}}}",
-	"bs-authors-profileimage": "Профиль рәсем",
-	"bs-authors-profileimage-change": "Рәсем профилен үҙгәртергә",
+	"bs-authors-title": "{{PLURAL:$1|{{GENDER:$2|Автор}}|Авторҙар}}",
+	"bs-authors-profileimage": "Профиль рәсеме",
+	"bs-authors-profileimage-change": "Профиль рәсемен үҙгәртергә",
 	"bs-authors-show-all-authors": "Башҡа авторҙар ҙа бар",
 	"bs-authors-pref-show": "Авторҙарҙы күрһәтергә",
-	"bs-authors-switch-description": "Был биттең авторҙарын йәшерергә"
+	"bs-authors-switch-description": "Был биттең авторҙарын йәшерә"
 }
