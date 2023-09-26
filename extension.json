@@ -67,7 +67,6 @@
 		}
 	},
 	"Hooks": {
-		"BSInsertMagicAjaxGetData": "\\BlueSpice\\Authors\\Hook\\BSInsertMagicAjaxGetData\\Authors::callback",
 		"GetDoubleUnderscoreIDs": "\\BlueSpice\\Authors\\Hook\\GetDoubleUnderscoreIDs\\AddNoAuthors::callback",
 		"StandardDialogsRegisterPageInfoPanelModules": "standard-dialogs"
 	},
