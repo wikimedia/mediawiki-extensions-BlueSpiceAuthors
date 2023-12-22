@@ -26,15 +26,6 @@
 			"ConfigDefinitionRegistry": {
 				"AuthorsShow": "\\BlueSpice\\Authors\\ConfigDefinition\\AuthorsShow::getInstance"
 			}
-		},
-		"BlueSpiceArticleInfo": {
-			"FlyoutModules": {
-				"authors": {
-					"module": "ext.bluespice.authors.flyout",
-					"make-items-callback": "bs.authors.flyout.makeItems",
-					"skip-callback": "\\BlueSpice\\Authors\\SkipArticleInfoFlyoutModuleChecker::callback"
-				}
-			}
 		}
 	},
 	"MessagesDirs": {
@@ -76,24 +67,6 @@
 		}
 	},
 	"ResourceModules": {
-		"ext.bluespice.authors.flyout": {
-			"class": "\\BlueSpice\\ResourceModule\\LessVars",
-			"scripts": [
-				"bluespice.authors.flyout.js"
-			],
-			"styles": [
-				"styles/bluespice.authors.less"
-			],
-			"messages": [
-				"bs-authors-flyout-title",
-				"bs-authors-author-type-originator",
-				"bs-authors-author-type-editor"
-			],
-			"dependencies": [
-				"ext.bluespice",
-				"ext.bluespice.extjs"
-			]
-		},
 		"ext.bluespice.authors.dialoginfo.pages": {
 			"scripts": [
 				"ui/page/bluespice.authors.AuthorsInformationPage.js"

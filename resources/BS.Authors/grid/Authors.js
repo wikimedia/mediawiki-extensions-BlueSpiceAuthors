@@ -1,11 +1,10 @@
 Ext.define( 'BS.Authors.grid.Authors', {
 	extend: 'Ext.grid.Panel',
 	requires: [ 'BS.store.BSApi' ],
-	cls: 'bs-authors-flyout-authors',
+	cls: 'bs-authors-info-dialog-authors',
 	maxWidth: 600,
 	pageSize : 3,
 	authors: [],
-	title: mw.message( 'bs-authors-flyout-title' ).plain(),
 	initComponent: function () {
 		this.store =  new BS.store.BSApi( {
 			apiAction: 'bs-pageauthors-store',
@@ -16,7 +15,7 @@ Ext.define( 'BS.Authors.grid.Authors', {
 			id: 'authors-aggregated',
 			sortable: false,
 			width: 400,
-			tpl: new Ext.XTemplate( "<div class='bs-authors-flyout-grid-item'>" +
+			tpl: new Ext.XTemplate( "<div class='bs-authors-info-dialog-item'>" +
 			"{user_image_html}" +
 			"<span>{user_name}</span>" +
 			"<span class='author-type'>{author_type:this.messagizeType}</span></div>",
