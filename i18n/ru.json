@@ -22,5 +22,6 @@
 	"bs-authors-flyout-title": "Авторы этой страницы",
 	"bs-authors-author-type-originator": "Оригинальный автор",
 	"bs-authors-author-type-editor": "Редактор",
+	"apihelp-bs-pageauthors-store-summary": "Перечислить всех авторов страницы, указанной в контексте",
 	"bs-authors-info-dialog": "Авторы этой страницы"
 }
