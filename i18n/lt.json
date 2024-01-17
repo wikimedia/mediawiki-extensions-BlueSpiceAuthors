@@ -14,9 +14,6 @@
 	"bs-authors-pref-show": "Rodyti autorius",
 	"bs-authors-navigation-link-title": "Šio puslapio autoriai",
 	"bs-authors-navigation-link-text": "Autorius",
-	"bs-authors-flyout-title": "Šio puslapio autoriai",
-	"bs-authors-author-type-originator": "Originalus autorius",
-	"bs-authors-author-type-editor": "Redaktorius",
 	"apihelp-bs-pageauthors-store-summary": "Išvardyti visus kontekste pateikto puslapio autorius",
 	"bs-authors-pref-show-help": "Rodo puslapio redaktorius puslapio informacijoje, kokybės valdymo įrankiuose.",
 	"bs-authors-info-dialog": "Šio puslapio autoriai"

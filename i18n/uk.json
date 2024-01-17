@@ -18,9 +18,6 @@
 	"bs-authors-pref-show": "Відобразити авторів",
 	"bs-authors-navigation-link-title": "Автори цієї сторінки",
 	"bs-authors-navigation-link-text": "Автори",
-	"bs-authors-flyout-title": "Автори цієї сторінки",
-	"bs-authors-author-type-originator": "Оригінальний автор",
-	"bs-authors-author-type-editor": "Редактор",
 	"apihelp-bs-pageauthors-store-summary": "Перелічити всіх авторів сторінки, поданої в контексті",
 	"bs-authors-pref-show-help": "Показує редакторам сторінок інформацію про сторінку в інструментах управління якістю.",
 	"bs-authors-info-dialog": "Автори цієї сторінки"

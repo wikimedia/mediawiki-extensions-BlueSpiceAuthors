@@ -18,9 +18,6 @@
 	"bs-authors-pref-show": "Afficher les auteurs",
 	"bs-authors-navigation-link-title": "Auteurs de cette page",
 	"bs-authors-navigation-link-text": "Auteurs",
-	"bs-authors-flyout-title": "Auteurs de cette page",
-	"bs-authors-author-type-originator": "Auteur originel",
-	"bs-authors-author-type-editor": "Rédacteur",
 	"apihelp-bs-pageauthors-store-summary": "Lister tous les auteurs d’une page fournie dans le contexte",
 	"bs-authors-pref-show-help": "Affiche les éditeurs de la page sur les informations de la page sous les outils de gestion de la qualité.",
 	"bs-authors-info-dialog": "Auteurs de cette page"

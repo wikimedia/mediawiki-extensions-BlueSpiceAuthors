@@ -17,9 +17,6 @@
 	"bs-authors-pref-show": "Yazarları görüntüle",
 	"bs-authors-navigation-link-title": "Bu sayfanın yazarları",
 	"bs-authors-navigation-link-text": "Yazarlar",
-	"bs-authors-flyout-title": "Bu sayfaın yazarları",
-	"bs-authors-author-type-originator": "Orijinal yazar",
-	"bs-authors-author-type-editor": "Düzenleyici",
 	"apihelp-bs-pageauthors-store-summary": "Bağlamda sağlanan bir sayfanın tüm yazarlarını listele",
 	"bs-authors-info-dialog": "Bu sayfanın yazarları"
 }

@@ -13,9 +13,6 @@
 	"bs-authors-pref-show": "Monstrar autores",
 	"bs-authors-navigation-link-title": "Autores de iste pagina",
 	"bs-authors-navigation-link-text": "Autores",
-	"bs-authors-flyout-title": "Autores de iste pagina",
-	"bs-authors-author-type-originator": "Autor original",
-	"bs-authors-author-type-editor": "Redactor",
 	"apihelp-bs-pageauthors-store-summary": "Lista tote le autores de un pagina fornite in le contexto",
 	"bs-authors-pref-show-help": "Monstra le redactores del pagina in le informationes del pagina sub le instrumentos de gestion de qualitate.",
 	"bs-authors-info-dialog": "Autores de iste pagina"

@@ -14,9 +14,6 @@
 	"bs-authors-pref-show": "Szerzők megjelenítése",
 	"bs-authors-navigation-link-title": "A lap szerzői",
 	"bs-authors-navigation-link-text": "Szerzők",
-	"bs-authors-flyout-title": "A lap szerzői",
-	"bs-authors-author-type-originator": "Eredeti szerző",
-	"bs-authors-author-type-editor": "Szerkesztő",
 	"apihelp-bs-pageauthors-store-summary": "Listázza a lap összes szerzőjét a megadott kontextusból",
 	"bs-authors-pref-show-help": "Megjeleníti a lap szerkesztőit a lapinformáción a minőségirányítási eszközök között.",
 	"bs-authors-info-dialog": "A lap szerzői"
