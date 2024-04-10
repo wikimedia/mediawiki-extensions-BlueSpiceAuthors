@@ -68,7 +68,8 @@ class PrimaryDataProvider implements IPrimaryDataProvider {
 			if ( $user instanceof \User ) {
 				$this->appendRowToData( [
 					'user_name' => $user->getName(),
-					'author_type' => 'originator'
+					'author_type' => 'originator',
+					'user_real_name' => !empty( $user->getRealName() ) ? $user->getRealName() : $user->getName()
 				] );
 			}
 		}
@@ -80,7 +81,8 @@ class PrimaryDataProvider implements IPrimaryDataProvider {
 			}
 			$this->appendRowToData( [
 				'user_name' => $user->getName(),
-				'author_type' => 'editor'
+				'author_type' => 'editor',
+				'user_real_name' => !empty( $user->getRealName() ) ? $user->getRealName() : $user->getName()
 			] );
 		}
 
@@ -94,7 +96,8 @@ class PrimaryDataProvider implements IPrimaryDataProvider {
 	protected function appendRowToData( $data ) {
 		$this->data[] = new Record( (object)[
 			Record::USER_NAME => $data['user_name'],
-			Record::AUTHOR_TYPE => $data['author_type']
+			Record::AUTHOR_TYPE => $data['author_type'],
+			Record::USER_REAL_NAME => $data['user_real_name']
 		] );
 	}
 }

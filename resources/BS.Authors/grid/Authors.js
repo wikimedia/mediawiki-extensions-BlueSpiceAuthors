@@ -8,7 +8,7 @@ Ext.define( 'BS.Authors.grid.Authors', {
 	initComponent: function () {
 		this.store =  new BS.store.BSApi( {
 			apiAction: 'bs-pageauthors-store',
-			fields: [ 'user_image_html', 'user_name', 'author_type' ]
+			fields: [ 'user_image_html', 'user_name', 'author_type', 'user_real_name' ]
 		} );
 
 		this.colAggregatedInfo = Ext.create( 'Ext.grid.column.Template', {
@@ -17,7 +17,7 @@ Ext.define( 'BS.Authors.grid.Authors', {
 			width: 400,
 			tpl: new Ext.XTemplate( "<div class='bs-authors-info-dialog-item'>" +
 			"{user_image_html}" +
-			"<span>{user_name}</span>" +
+			"<span>{user_real_name}</span>" +
 			"<span class='author-type'>{author_type:this.messagizeType}</span></div>",
 				{
 					messagizeType: function (type) {
