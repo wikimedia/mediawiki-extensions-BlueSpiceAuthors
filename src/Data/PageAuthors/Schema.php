@@ -21,6 +21,11 @@ class Schema extends \MWStake\MediaWiki\Component\DataStore\Schema {
 				self::FILTERABLE => true,
 				self::SORTABLE => true,
 				self::TYPE => FieldType::STRING
+			],
+			Record::USER_REAL_NAME => [
+				self::FILTERABLE => true,
+				self::SORTABLE => true,
+				self::TYPE => FieldType::STRING
 			]
 		] );
 	}
