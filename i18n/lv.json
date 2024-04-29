@@ -4,11 +4,11 @@
 			"Papuass"
 		]
 	},
-	"prefs-authors": "Šīs lapas autori",
+	"prefs-authors": "\u0160\u012bs lapas autori",
 	"bs-authors-title": "{{PLURAL:$1|Autori|{{GENDER:$2|Autors|Autore}}|Autori}}",
-	"bs-authors-profileimage": "Profila attēls",
-	"bs-authors-profileimage-change": "Mainīt profila attēlu",
-	"bs-authors-pref-show": "Rādīt autorus",
-	"bs-authors-switch-description": "Paslēpj šīs lapas autorus.",
+	"bs-authors-profileimage": "Profila att\u0113ls",
+	"bs-authors-profileimage-change": "Main\u012bt profila att\u0113lu",
+	"bs-authors-pref-show": "R\u0101d\u012bt autorus",
+	"bs-authors-switch-description": "Pasl\u0113pj \u0161\u012bs lapas autorus.",
 	"bs-authors-navigation-link-text": "Autori"
 }

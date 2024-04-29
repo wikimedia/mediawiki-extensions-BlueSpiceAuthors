@@ -9,20 +9,20 @@
 			"Zarisi"
 		]
 	},
-	"bs-authors-desc": "Affiche l’image de profil des auteurs d’une page",
+	"bs-authors-desc": "Affiche l\u2019image de profil des auteurs d\u2019une page",
 	"prefs-authors": "Auteurs de cette page",
 	"bs-authors-title": "{{PLURAL:$1|{{GENDER:$2|Auteur|Autrice}}|Auteurs}}",
 	"bs-authors-profileimage": "Image de profil",
-	"bs-authors-profileimage-change": "Modifier l’image de profil",
-	"bs-authors-show-all-authors": "Plus d’auteurs disponibles",
+	"bs-authors-profileimage-change": "Modifier l\u2019image de profil",
+	"bs-authors-show-all-authors": "Plus d\u2019auteurs disponibles",
 	"bs-authors-pref-show": "Afficher les auteurs",
 	"bs-authors-switch-description": "Masque les auteurs sur cette page.",
 	"bs-authors-navigation-link-title": "Auteurs de cette page",
 	"bs-authors-navigation-link-text": "Auteurs",
 	"bs-authors-flyout-title": "Auteurs de cette page",
 	"bs-authors-author-type-originator": "Auteur originel",
-	"bs-authors-author-type-editor": "Rédacteur",
-	"apihelp-bs-pageauthors-store-summary": "Lister tous les auteurs d’une page fournie dans le contexte",
-	"bs-authors-pref-show-help": "Affiche les éditeurs de la page sur les informations de la page sous les outils de gestion de la qualité.",
+	"bs-authors-author-type-editor": "R\u00e9dacteur",
+	"apihelp-bs-pageauthors-store-summary": "Lister tous les auteurs d\u2019une page fournie dans le contexte",
+	"bs-authors-pref-show-help": "Affiche les \u00e9diteurs de la page sur les informations de la page sous les outils de gestion de la qualit\u00e9.",
 	"bs-authors-info-dialog": "Auteurs de cette page"
 }

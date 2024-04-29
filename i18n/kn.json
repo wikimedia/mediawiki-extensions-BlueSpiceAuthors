@@ -2,19 +2,19 @@
 	"@metadata": {
 		"authors": [
 			"VASANTH S.N.",
-			"ಮಲ್ನಾಡಾಚ್ ಕೊಂಕ್ಣೊ"
+			"\u0cae\u0cb2\u0ccd\u0ca8\u0cbe\u0ca1\u0cbe\u0c9a\u0ccd \u0c95\u0cca\u0c82\u0c95\u0ccd\u0ca3\u0cca"
 		]
 	},
-	"bs-authors-desc": "ಪುಟದ ಲೇಖಕರನ್ನು ಅವರ ಭಾವಚಿತ್ರದೊಂದಿಗೆ ಪ್ರದರ್ಶಿಸುತ್ತದೆ",
-	"prefs-authors": "ಈ ಪುಟದ ಲೇಖಕರು",
-	"bs-authors-title": "{{PLURAL:$1|ಲೇಖಕ|ಲೇಖಕರು}}",
-	"bs-authors-profileimage": "ವ್ಯಕ್ತಿ ಚಿತ್ರ",
-	"bs-authors-profileimage-change": "ವ್ಯಕ್ತಿಚಿತ್ರದ ಭಾವಚಿತ್ರವನ್ನು ಬದಲಾಯಿಸಿ",
-	"bs-authors-show-all-authors": "ಹೆಚ್ಚಿನ ಲೇಖಕರು ಲಭ್ಯ",
-	"bs-authors-pref-show": "ಲೇಖಕರನ್ನು ಪ್ರಕಟಪಡಿಸಿ",
-	"bs-authors-switch-description": "ಈ ಲೇಖನದಲ್ಲಿ ಲೇಖಕರನ್ನು ಅಡಗಿಸಲಾಗುತ್ತಿದೆ.",
-	"bs-authors-navigation-link-title": "ಈ ಪುಟದ ಕರ್ತೃಗಳು",
-	"bs-authors-navigation-link-text": "ಕರ್ತೃಗಳು",
-	"bs-authors-flyout-title": "ಈ ಪುಟದ ಕರ್ತೃಗಳು",
-	"bs-authors-author-type-editor": "ಸಂಪಾದಕ"
+	"bs-authors-desc": "\u0caa\u0cc1\u0c9f\u0ca6 \u0cb2\u0cc7\u0c96\u0c95\u0cb0\u0ca8\u0ccd\u0ca8\u0cc1 \u0c85\u0cb5\u0cb0 \u0cad\u0cbe\u0cb5\u0c9a\u0cbf\u0ca4\u0ccd\u0cb0\u0ca6\u0cca\u0c82\u0ca6\u0cbf\u0c97\u0cc6 \u0caa\u0ccd\u0cb0\u0ca6\u0cb0\u0ccd\u0cb6\u0cbf\u0cb8\u0cc1\u0ca4\u0ccd\u0ca4\u0ca6\u0cc6",
+	"prefs-authors": "\u0c88 \u0caa\u0cc1\u0c9f\u0ca6 \u0cb2\u0cc7\u0c96\u0c95\u0cb0\u0cc1",
+	"bs-authors-title": "{{PLURAL:$1|\u0cb2\u0cc7\u0c96\u0c95|\u0cb2\u0cc7\u0c96\u0c95\u0cb0\u0cc1}}",
+	"bs-authors-profileimage": "\u0cb5\u0ccd\u0caf\u0c95\u0ccd\u0ca4\u0cbf \u0c9a\u0cbf\u0ca4\u0ccd\u0cb0",
+	"bs-authors-profileimage-change": "\u0cb5\u0ccd\u0caf\u0c95\u0ccd\u0ca4\u0cbf\u0c9a\u0cbf\u0ca4\u0ccd\u0cb0\u0ca6 \u0cad\u0cbe\u0cb5\u0c9a\u0cbf\u0ca4\u0ccd\u0cb0\u0cb5\u0ca8\u0ccd\u0ca8\u0cc1 \u0cac\u0ca6\u0cb2\u0cbe\u0caf\u0cbf\u0cb8\u0cbf",
+	"bs-authors-show-all-authors": "\u0cb9\u0cc6\u0c9a\u0ccd\u0c9a\u0cbf\u0ca8 \u0cb2\u0cc7\u0c96\u0c95\u0cb0\u0cc1 \u0cb2\u0cad\u0ccd\u0caf",
+	"bs-authors-pref-show": "\u0cb2\u0cc7\u0c96\u0c95\u0cb0\u0ca8\u0ccd\u0ca8\u0cc1 \u0caa\u0ccd\u0cb0\u0c95\u0c9f\u0caa\u0ca1\u0cbf\u0cb8\u0cbf",
+	"bs-authors-switch-description": "\u0c88 \u0cb2\u0cc7\u0c96\u0ca8\u0ca6\u0cb2\u0ccd\u0cb2\u0cbf \u0cb2\u0cc7\u0c96\u0c95\u0cb0\u0ca8\u0ccd\u0ca8\u0cc1 \u0c85\u0ca1\u0c97\u0cbf\u0cb8\u0cb2\u0cbe\u0c97\u0cc1\u0ca4\u0ccd\u0ca4\u0cbf\u0ca6\u0cc6.",
+	"bs-authors-navigation-link-title": "\u0c88 \u0caa\u0cc1\u0c9f\u0ca6 \u0c95\u0cb0\u0ccd\u0ca4\u0cc3\u0c97\u0cb3\u0cc1",
+	"bs-authors-navigation-link-text": "\u0c95\u0cb0\u0ccd\u0ca4\u0cc3\u0c97\u0cb3\u0cc1",
+	"bs-authors-flyout-title": "\u0c88 \u0caa\u0cc1\u0c9f\u0ca6 \u0c95\u0cb0\u0ccd\u0ca4\u0cc3\u0c97\u0cb3\u0cc1",
+	"bs-authors-author-type-editor": "\u0cb8\u0c82\u0caa\u0cbe\u0ca6\u0c95"
 }

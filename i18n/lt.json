@@ -5,20 +5,20 @@
 			"Nokeoo"
 		]
 	},
-	"bs-authors-desc": "Rodo puslapio autorių profilio nuotraukas",
-	"prefs-authors": "Šio puslapio autoriai",
+	"bs-authors-desc": "Rodo puslapio autori\u0173 profilio nuotraukas",
+	"prefs-authors": "\u0160io puslapio autoriai",
 	"bs-authors-title": "{{PLURAL:$1|{{GENDER:$2|Autorius}}|Autoriai}}",
 	"bs-authors-profileimage": "Profilio nuotrauka",
 	"bs-authors-profileimage-change": "Keisti profilio nuotrauka",
-	"bs-authors-show-all-authors": "Yra daugiau autorių",
+	"bs-authors-show-all-authors": "Yra daugiau autori\u0173",
 	"bs-authors-pref-show": "Rodyti autorius",
-	"bs-authors-switch-description": "Slėpti autorius šiame puslapyje.",
-	"bs-authors-navigation-link-title": "Šio puslapio autoriai",
+	"bs-authors-switch-description": "Sl\u0117pti autorius \u0161iame puslapyje.",
+	"bs-authors-navigation-link-title": "\u0160io puslapio autoriai",
 	"bs-authors-navigation-link-text": "Autorius",
-	"bs-authors-flyout-title": "Šio puslapio autoriai",
+	"bs-authors-flyout-title": "\u0160io puslapio autoriai",
 	"bs-authors-author-type-originator": "Originalus autorius",
 	"bs-authors-author-type-editor": "Redaktorius",
-	"apihelp-bs-pageauthors-store-summary": "Išvardyti visus kontekste pateikto puslapio autorius",
-	"bs-authors-pref-show-help": "Rodo puslapio redaktorius puslapio informacijoje, kokybės valdymo įrankiuose.",
-	"bs-authors-info-dialog": "Šio puslapio autoriai"
+	"apihelp-bs-pageauthors-store-summary": "I\u0161vardyti visus kontekste pateikto puslapio autorius",
+	"bs-authors-pref-show-help": "Rodo puslapio redaktorius puslapio informacijoje, kokyb\u0117s valdymo \u012frankiuose.",
+	"bs-authors-info-dialog": "\u0160io puslapio autoriai"
 }

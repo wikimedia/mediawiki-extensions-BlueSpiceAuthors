@@ -5,13 +5,13 @@
 			"Skalcaa"
 		]
 	},
-	"bs-authors-desc": "Prikaže sliko profila avtorjev strani",
+	"bs-authors-desc": "Prika\u017ee sliko profila avtorjev strani",
 	"prefs-authors": "Avtorji te strani",
 	"bs-authors-title": "{{PLURAL:$1|{{GENDER:$2|Avtor}}|{{GENDER:$2|Avtorji|Avtorice|Avtorji_ice}}}}",
 	"bs-authors-profileimage": "Slika profila",
 	"bs-authors-profileimage-change": "Spremeni sliko profila",
-	"bs-authors-show-all-authors": "Na voljo je več avtorjev",
-	"bs-authors-pref-show": "Prikaži avtorje",
+	"bs-authors-show-all-authors": "Na voljo je ve\u010d avtorjev",
+	"bs-authors-pref-show": "Prika\u017ei avtorje",
 	"bs-authors-switch-description": "Skrije avtorje na tej strani.",
 	"bs-authors-navigation-link-text": "Avtorji",
 	"bs-authors-author-type-editor": "Urejevalec",
@@ -19,6 +19,6 @@
 	"bs-authors-flyout-title": "Avtorji te strani",
 	"bs-authors-author-type-originator": "Prvotni avtor",
 	"apihelp-bs-pageauthors-store-summary": "Navede vse avtorje strani, podane v kontekstu",
-	"bs-authors-pref-show-help": "Urejevalnikom strani prikaže podatke o strani pod orodji za upravljanje kakovosti.",
+	"bs-authors-pref-show-help": "Urejevalnikom strani prika\u017ee podatke o strani pod orodji za upravljanje kakovosti.",
 	"bs-authors-info-dialog": "Avtorji te strani"
 }

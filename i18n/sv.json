@@ -3,21 +3,21 @@
 		"authors": [
 			"Jopparn",
 			"Lokal Profil",
-			"Mjälten",
+			"Mj\u00e4lten",
 			"WikiPhoenix"
 		]
 	},
-	"bs-authors-desc": "Visar profilbilden för författare till en sida",
-	"prefs-authors": "Författarna till denna sida",
-	"bs-authors-title": "{{PLURAL:$1|{{GENDER:$2|Författare}}}}",
+	"bs-authors-desc": "Visar profilbilden f\u00f6r f\u00f6rfattare till en sida",
+	"prefs-authors": "F\u00f6rfattarna till denna sida",
+	"bs-authors-title": "{{PLURAL:$1|{{GENDER:$2|F\u00f6rfattare}}}}",
 	"bs-authors-profileimage": "Profilbild",
-	"bs-authors-profileimage-change": "Ändra profilbild",
-	"bs-authors-show-all-authors": "Fler författare tillgängliga",
-	"bs-authors-pref-show": "Visa författare",
-	"bs-authors-switch-description": "Döljer författarna för denna sida.",
-	"bs-authors-navigation-link-title": "Författarna till denna sida",
-	"bs-authors-navigation-link-text": "Författare",
-	"bs-authors-flyout-title": "Författare till denna sida",
-	"bs-authors-author-type-originator": "Upphovsförfattare",
-	"bs-authors-author-type-editor": "Redaktörer"
+	"bs-authors-profileimage-change": "\u00c4ndra profilbild",
+	"bs-authors-show-all-authors": "Fler f\u00f6rfattare tillg\u00e4ngliga",
+	"bs-authors-pref-show": "Visa f\u00f6rfattare",
+	"bs-authors-switch-description": "D\u00f6ljer f\u00f6rfattarna f\u00f6r denna sida.",
+	"bs-authors-navigation-link-title": "F\u00f6rfattarna till denna sida",
+	"bs-authors-navigation-link-text": "F\u00f6rfattare",
+	"bs-authors-flyout-title": "F\u00f6rfattare till denna sida",
+	"bs-authors-author-type-originator": "Upphovsf\u00f6rfattare",
+	"bs-authors-author-type-editor": "Redakt\u00f6rer"
 }

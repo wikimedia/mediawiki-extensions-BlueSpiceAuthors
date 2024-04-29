@@ -4,11 +4,11 @@
 			"Aftab1995",
 			"Aftabuzzaman",
 			"Md. Golam Mukit Khan",
-			"আফতাবুজ্জামান"
+			"\u0986\u09ab\u09a4\u09be\u09ac\u09c1\u099c\u09cd\u099c\u09be\u09ae\u09be\u09a8"
 		]
 	},
-	"bs-authors-title": "{{PLURAL:$1|{{GENDER:$2|লেখক}}|লেখকগণ}}",
-	"bs-authors-navigation-link-title": "এই পাতার লেখক",
-	"bs-authors-navigation-link-text": "লেখকগণ",
-	"bs-authors-author-type-editor": "সম্পাদক"
+	"bs-authors-title": "{{PLURAL:$1|{{GENDER:$2|\u09b2\u09c7\u0996\u0995}}|\u09b2\u09c7\u0996\u0995\u0997\u09a3}}",
+	"bs-authors-navigation-link-title": "\u098f\u0987 \u09aa\u09be\u09a4\u09be\u09b0 \u09b2\u09c7\u0996\u0995",
+	"bs-authors-navigation-link-text": "\u09b2\u09c7\u0996\u0995\u0997\u09a3",
+	"bs-authors-author-type-editor": "\u09b8\u09ae\u09cd\u09aa\u09be\u09a6\u0995"
 }

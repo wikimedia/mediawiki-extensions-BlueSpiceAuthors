@@ -6,14 +6,14 @@
 			"Zarisi"
 		]
 	},
-	"prefs-authors": "Aŭtoroj de ĉi tiu paĝo",
-	"bs-authors-title": "{{PLURAL:$1|{{GENDER:$2|Aŭtoro|Aŭtorino}}|Aŭtoroj}}",
+	"prefs-authors": "A\u016dtoroj de \u0109i tiu pa\u011do",
+	"bs-authors-title": "{{PLURAL:$1|{{GENDER:$2|A\u016dtoro|A\u016dtorino}}|A\u016dtoroj}}",
 	"bs-authors-profileimage": "Profila bildo",
-	"bs-authors-profileimage-change": "Ŝanĝi profilan bildon",
-	"bs-authors-pref-show": "Montri aŭtorojn",
-	"bs-authors-navigation-link-title": "Aŭtoroj de ĉi tiu paĝo",
-	"bs-authors-navigation-link-text": "Aŭtoroj",
-	"bs-authors-flyout-title": "Aŭtoroj de ĉi tiu paĝo",
-	"bs-authors-author-type-originator": "Originala aŭtoro",
+	"bs-authors-profileimage-change": "\u015can\u011di profilan bildon",
+	"bs-authors-pref-show": "Montri a\u016dtorojn",
+	"bs-authors-navigation-link-title": "A\u016dtoroj de \u0109i tiu pa\u011do",
+	"bs-authors-navigation-link-text": "A\u016dtoroj",
+	"bs-authors-flyout-title": "A\u016dtoroj de \u0109i tiu pa\u011do",
+	"bs-authors-author-type-originator": "Originala a\u016dtoro",
 	"bs-authors-author-type-editor": "Redaktoro"
 }

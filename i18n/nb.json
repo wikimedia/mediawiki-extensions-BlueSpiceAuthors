@@ -2,7 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Abuluntu",
-			"Jon Harald Søby"
+			"Jon Harald S\u00f8by"
 		]
 	},
 	"bs-authors-desc": "Viser profilbildet til forfatterne av en side",
@@ -12,13 +12,13 @@
 	"bs-authors-profileimage-change": "Endre profilbilde",
 	"bs-authors-show-all-authors": "Flere forfattere tilgjengelig",
 	"bs-authors-pref-show": "Vis forfattere",
-	"bs-authors-switch-description": "Skjul forfatterne på denne siden.",
+	"bs-authors-switch-description": "Skjul forfatterne p\u00e5 denne siden.",
 	"bs-authors-navigation-link-title": "Forfatterne av denne siden",
 	"bs-authors-navigation-link-text": "Forfattere",
 	"bs-authors-flyout-title": "Forfattere av denne siden",
 	"bs-authors-author-type-originator": "Opprinnelig bidragsyter",
 	"bs-authors-author-type-editor": "Bruker",
 	"apihelp-bs-pageauthors-store-summary": "Liste opp alle forfatterne av en side gitt i konteksten",
-	"bs-authors-pref-show-help": "Viser sidens forfattere i sideinformasjonen under kvalitetsbehandlingsverktøyene.",
+	"bs-authors-pref-show-help": "Viser sidens forfattere i sideinformasjonen under kvalitetsbehandlingsverkt\u00f8yene.",
 	"bs-authors-info-dialog": "Forfattere av denne siden"
 }

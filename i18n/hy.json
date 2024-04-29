@@ -4,7 +4,7 @@
 			"Kareyac"
 		]
 	},
-	"bs-authors-title": "{{PLURAL:$1|{{GENDER:$2|Հեղինակ}}|Հեղինակներ}}",
-	"bs-authors-navigation-link-text": "Հեղինակներ",
-	"bs-authors-author-type-editor": "Խմբագիր"
+	"bs-authors-title": "{{PLURAL:$1|{{GENDER:$2|\u0540\u0565\u0572\u056b\u0576\u0561\u056f}}|\u0540\u0565\u0572\u056b\u0576\u0561\u056f\u0576\u0565\u0580}}",
+	"bs-authors-navigation-link-text": "\u0540\u0565\u0572\u056b\u0576\u0561\u056f\u0576\u0565\u0580",
+	"bs-authors-author-type-editor": "\u053d\u0574\u0562\u0561\u0563\u056b\u0580"
 }
