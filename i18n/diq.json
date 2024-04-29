@@ -6,14 +6,14 @@
 			"Mirzali"
 		]
 	},
-	"bs-authors-desc": "Qandé nuştekarê perer profila resimi bıasne",
-	"prefs-authors": "Nuştekarê perer",
-	"bs-authors-title": "{{PLURAL:$1|{{GENDER:$2|Nuştekar}}|Nuştekari}}",
-	"bs-authors-profileimage": "Resmê profili",
-	"bs-authors-profileimage-change": "Resmê profili bıvurne",
-	"bs-authors-show-all-authors": "Dehana vêşi mewcud nuştekari",
-	"bs-authors-pref-show": "Nuştoğan bımotne",
-	"bs-authors-switch-description": "Perer de nustoğan bınımn",
-	"bs-authors-navigation-link-text": "Nuştekari",
-	"bs-authors-author-type-editor": "Vurnayoğ"
+	"bs-authors-desc": "Qand\u00e9 nu\u015ftekar\u00ea perer profila resimi b\u0131asne",
+	"prefs-authors": "Nu\u015ftekar\u00ea perer",
+	"bs-authors-title": "{{PLURAL:$1|{{GENDER:$2|Nu\u015ftekar}}|Nu\u015ftekari}}",
+	"bs-authors-profileimage": "Resm\u00ea profili",
+	"bs-authors-profileimage-change": "Resm\u00ea profili b\u0131vurne",
+	"bs-authors-show-all-authors": "Dehana v\u00ea\u015fi mewcud nu\u015ftekari",
+	"bs-authors-pref-show": "Nu\u015fto\u011fan b\u0131motne",
+	"bs-authors-switch-description": "Perer de nusto\u011fan b\u0131n\u0131mn",
+	"bs-authors-navigation-link-text": "Nu\u015ftekari",
+	"bs-authors-author-type-editor": "Vurnayo\u011f"
 }

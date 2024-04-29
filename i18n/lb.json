@@ -4,16 +4,16 @@
 			"Robby"
 		]
 	},
-	"bs-authors-desc": "Weist d'Profilbild vun den Auteure vun enger Säit",
-	"prefs-authors": "Auteure vun dëser Säit",
+	"bs-authors-desc": "Weist d'Profilbild vun den Auteure vun enger S\u00e4it",
+	"prefs-authors": "Auteure vun d\u00ebser S\u00e4it",
 	"bs-authors-title": "{{PLURAL:$1|{{GENDER:$2|Auteur}}|Auteuren}}",
 	"bs-authors-profileimage": "Profilbild",
-	"bs-authors-profileimage-change": "Profilbild änneren",
-	"bs-authors-show-all-authors": "Méi Auteuren disponibel",
+	"bs-authors-profileimage-change": "Profilbild \u00e4nneren",
+	"bs-authors-show-all-authors": "M\u00e9i Auteuren disponibel",
 	"bs-authors-pref-show": "Auteure weisen",
-	"bs-authors-switch-description": "Verstoppt d'Auteure op dëser Säit.",
-	"bs-authors-navigation-link-title": "Auteure vun dëser Säit",
+	"bs-authors-switch-description": "Verstoppt d'Auteure op d\u00ebser S\u00e4it.",
+	"bs-authors-navigation-link-title": "Auteure vun d\u00ebser S\u00e4it",
 	"bs-authors-navigation-link-text": "Auteuren",
-	"bs-authors-flyout-title": "Auteure vun dëser Säit",
-	"bs-authors-info-dialog": "Auteure vun dëser Säit"
+	"bs-authors-flyout-title": "Auteure vun d\u00ebser S\u00e4it",
+	"bs-authors-info-dialog": "Auteure vun d\u00ebser S\u00e4it"
 }

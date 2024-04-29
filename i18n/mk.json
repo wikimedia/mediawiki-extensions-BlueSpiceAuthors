@@ -5,18 +5,18 @@
 			"Vlad5250"
 		]
 	},
-	"bs-authors-desc": "Прикажува профилни слики на авторите на една страница",
-	"prefs-authors": "Автори на страницава",
-	"bs-authors-title": "{{PLURAL:$1|{{GENDER:$2|Автор}}|Автори}}",
-	"bs-authors-profileimage": "Профилна слика",
-	"bs-authors-profileimage-change": "Промена на профилната слика",
-	"bs-authors-show-all-authors": "Промена на профилната слика",
-	"bs-authors-pref-show": "Прикажувај автори",
-	"bs-authors-switch-description": "Ги сокрива авторите на страницава.",
-	"bs-authors-navigation-link-title": "Автори на страницава",
-	"bs-authors-navigation-link-text": "Автори",
-	"bs-authors-flyout-title": "Автори на страницава",
-	"bs-authors-author-type-originator": "Оригинален автор",
-	"bs-authors-author-type-editor": "Уредник",
-	"bs-authors-info-dialog": "Автори на страницава"
+	"bs-authors-desc": "\u041f\u0440\u0438\u043a\u0430\u0436\u0443\u0432\u0430 \u043f\u0440\u043e\u0444\u0438\u043b\u043d\u0438 \u0441\u043b\u0438\u043a\u0438 \u043d\u0430 \u0430\u0432\u0442\u043e\u0440\u0438\u0442\u0435 \u043d\u0430 \u0435\u0434\u043d\u0430 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0430",
+	"prefs-authors": "\u0410\u0432\u0442\u043e\u0440\u0438 \u043d\u0430 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0430\u0432\u0430",
+	"bs-authors-title": "{{PLURAL:$1|{{GENDER:$2|\u0410\u0432\u0442\u043e\u0440}}|\u0410\u0432\u0442\u043e\u0440\u0438}}",
+	"bs-authors-profileimage": "\u041f\u0440\u043e\u0444\u0438\u043b\u043d\u0430 \u0441\u043b\u0438\u043a\u0430",
+	"bs-authors-profileimage-change": "\u041f\u0440\u043e\u043c\u0435\u043d\u0430 \u043d\u0430 \u043f\u0440\u043e\u0444\u0438\u043b\u043d\u0430\u0442\u0430 \u0441\u043b\u0438\u043a\u0430",
+	"bs-authors-show-all-authors": "\u041f\u0440\u043e\u043c\u0435\u043d\u0430 \u043d\u0430 \u043f\u0440\u043e\u0444\u0438\u043b\u043d\u0430\u0442\u0430 \u0441\u043b\u0438\u043a\u0430",
+	"bs-authors-pref-show": "\u041f\u0440\u0438\u043a\u0430\u0436\u0443\u0432\u0430\u0458 \u0430\u0432\u0442\u043e\u0440\u0438",
+	"bs-authors-switch-description": "\u0413\u0438 \u0441\u043e\u043a\u0440\u0438\u0432\u0430 \u0430\u0432\u0442\u043e\u0440\u0438\u0442\u0435 \u043d\u0430 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0430\u0432\u0430.",
+	"bs-authors-navigation-link-title": "\u0410\u0432\u0442\u043e\u0440\u0438 \u043d\u0430 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0430\u0432\u0430",
+	"bs-authors-navigation-link-text": "\u0410\u0432\u0442\u043e\u0440\u0438",
+	"bs-authors-flyout-title": "\u0410\u0432\u0442\u043e\u0440\u0438 \u043d\u0430 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0430\u0432\u0430",
+	"bs-authors-author-type-originator": "\u041e\u0440\u0438\u0433\u0438\u043d\u0430\u043b\u0435\u043d \u0430\u0432\u0442\u043e\u0440",
+	"bs-authors-author-type-editor": "\u0423\u0440\u0435\u0434\u043d\u0438\u043a",
+	"bs-authors-info-dialog": "\u0410\u0432\u0442\u043e\u0440\u0438 \u043d\u0430 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0430\u0432\u0430"
 }
