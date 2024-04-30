@@ -1,13 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"\u0410\u043b\u0438\u044f"
+			"Алия"
 		]
 	},
-	"prefs-authors": "\u042d\u043d \u0445\u0430\u043b\u0445\u0438\u043d \u0437\u043e\u043a\u0430\u04bb\u0430\u0447\u043d\u0440",
-	"bs-authors-navigation-link-title": "\u042d\u043d \u0445\u0430\u043b\u0445\u0438\u043d \u0437\u043e\u043a\u0430\u04bb\u0430\u0447\u043d\u0440",
-	"bs-authors-navigation-link-text": "\u0417\u043e\u043a\u0430\u04bb\u0430\u0447\u043d\u0440",
-	"bs-authors-flyout-title": "\u042d\u043d \u0445\u0430\u043b\u0445\u0438\u043d \u0437\u043e\u043a\u0430\u04bb\u0430\u0447\u043d\u0440",
-	"bs-authors-author-type-editor": "\u042f\u0441\u0432\u0440\u043b\u0430\u0447",
-	"bs-authors-info-dialog": "\u042d\u043d \u0445\u0430\u043b\u0445\u0438\u043d \u0437\u043e\u043a\u0430\u04bb\u0430\u0447\u043d\u0440"
+	"prefs-authors": "Эн халхин зокаһачнр",
+	"bs-authors-navigation-link-title": "Эн халхин зокаһачнр",
+	"bs-authors-navigation-link-text": "Зокаһачнр",
+	"bs-authors-flyout-title": "Эн халхин зокаһачнр",
+	"bs-authors-author-type-editor": "Ясврлач",
+	"bs-authors-info-dialog": "Эн халхин зокаһачнр"
 }

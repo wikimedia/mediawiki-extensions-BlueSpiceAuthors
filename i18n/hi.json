@@ -5,8 +5,8 @@
 			"Sfic"
 		]
 	},
-	"bs-authors-profileimage": "\u092a\u094d\u0930\u094b\u092b\u093c\u093e\u0907\u0932 \u091b\u0935\u093f",
-	"bs-authors-profileimage-change": "\u092a\u094d\u0930\u094b\u092b\u093c\u093e\u0907\u0932 \u091b\u0935\u093f \u0915\u094b \u092c\u0926\u0932\u0947\u0902",
-	"bs-authors-pref-show": "\u0932\u0947\u0916\u0915 \u0915\u094b \u0926\u0930\u094d\u0936\u093e\u090f\u0964",
-	"bs-authors-switch-description": "\u0907\u0938 \u092a\u0943\u0937\u094d\u0920 \u092a\u0930 \u0932\u0947\u0916\u0915\u094b\u0902 \u0915\u094b \u091b\u0941\u092a\u093e\u090f\u0964"
+	"bs-authors-profileimage": "प्रोफ़ाइल छवि",
+	"bs-authors-profileimage-change": "प्रोफ़ाइल छवि को बदलें",
+	"bs-authors-pref-show": "लेखक को दर्शाए।",
+	"bs-authors-switch-description": "इस पृष्ठ पर लेखकों को छुपाए।"
 }

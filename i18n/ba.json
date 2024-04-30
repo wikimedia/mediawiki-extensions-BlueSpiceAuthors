@@ -2,16 +2,16 @@
 	"@metadata": {
 		"authors": [
 			"Sagan",
-			"\u0417. \u04d8\u0419\u041b\u0415",
-			"\u0420\u0443\u0441\u0442\u0430\u043c \u041d\u0443\u0440\u044b\u0435\u0432"
+			"З. ӘЙЛЕ",
+			"Рустам Нурыев"
 		]
 	},
-	"bs-authors-desc": "\u0411\u0438\u0442 \u0430\u0432\u0442\u043e\u0440\u0499\u0430\u0440\u044b\u043d\u044b\u04a3 \u043f\u0440\u043e\u0444\u0438\u043b\u044c \u04bb\u04af\u0440\u04d9\u0442\u0435\u043d \u043a\u04af\u0440\u04bb\u04d9\u0442\u04d9",
-	"prefs-authors": "\u0411\u044b\u043b \u0431\u0438\u0442 \u0430\u0432\u0442\u043e\u0440\u0499\u0430\u0440\u044b",
-	"bs-authors-title": "{{PLURAL:$1|{{GENDER:$2|\u0410\u0432\u0442\u043e\u0440}}|\u0410\u0432\u0442\u043e\u0440\u0499\u0430\u0440}}",
-	"bs-authors-profileimage": "\u041f\u0440\u043e\u0444\u0438\u043b\u044c \u0440\u04d9\u0441\u0435\u043c\u0435",
-	"bs-authors-profileimage-change": "\u041f\u0440\u043e\u0444\u0438\u043b\u044c \u0440\u04d9\u0441\u0435\u043c\u0435\u043d \u04af\u0499\u0433\u04d9\u0440\u0442\u0435\u0440\u0433\u04d9",
-	"bs-authors-show-all-authors": "\u0411\u0430\u0448\u04a1\u0430 \u0430\u0432\u0442\u043e\u0440\u0499\u0430\u0440 \u0499\u0430 \u0431\u0430\u0440",
-	"bs-authors-pref-show": "\u0410\u0432\u0442\u043e\u0440\u0499\u0430\u0440\u0499\u044b \u043a\u04af\u0440\u04bb\u04d9\u0442\u0435\u0440\u0433\u04d9",
-	"bs-authors-switch-description": "\u0411\u044b\u043b \u0431\u0438\u0442\u0442\u0435\u04a3 \u0430\u0432\u0442\u043e\u0440\u0499\u0430\u0440\u044b\u043d \u0439\u04d9\u0448\u0435\u0440\u04d9"
+	"bs-authors-desc": "Бит авторҙарының профиль һүрәтен күрһәтә",
+	"prefs-authors": "Был бит авторҙары",
+	"bs-authors-title": "{{PLURAL:$1|{{GENDER:$2|Автор}}|Авторҙар}}",
+	"bs-authors-profileimage": "Профиль рәсеме",
+	"bs-authors-profileimage-change": "Профиль рәсемен үҙгәртергә",
+	"bs-authors-show-all-authors": "Башҡа авторҙар ҙа бар",
+	"bs-authors-pref-show": "Авторҙарҙы күрһәтергә",
+	"bs-authors-switch-description": "Был биттең авторҙарын йәшерә"
 }

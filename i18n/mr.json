@@ -4,12 +4,12 @@
 			"V.narsikar"
 		]
 	},
-	"bs-authors-desc": "\u092a\u093e\u0928\u093e\u091a\u094d\u092f\u093e \u0932\u0947\u0916\u0915\u093e\u091a\u0947 \u0938\u0902\u0915\u094d\u0937\u093f\u092a\u094d\u0924-\u0935\u0930\u094d\u0923\u0928\u093e\u0924\u0940\u0932 \u091a\u093f\u0924\u094d\u0930 \u0926\u0930\u094d\u0936\u0935\u093f\u0924\u0947",
-	"prefs-authors": "\u092a\u093e\u0928\u093e\u091a\u0947 \u0932\u0947\u0916\u0915",
-	"bs-authors-title": "{{PLURAL:$1|{{GENDER:$2|\u0932\u0947\u0916\u0915}}}}",
-	"bs-authors-profileimage": "\u0938\u0902\u0915\u094d\u0937\u093f\u092a\u094d\u0924-\u0935\u0930\u094d\u0923\u0928\u093e\u0924\u0940\u0932 \u091a\u093f\u0924\u094d\u0930",
-	"bs-authors-profileimage-change": "\u0938\u0902\u0915\u094d\u0937\u093f\u092a\u094d\u0924-\u0935\u0930\u094d\u0923\u0928\u093e\u0924\u0940\u0932 \u091a\u093f\u0924\u094d\u0930 \u092c\u0926\u0932\u093e",
-	"bs-authors-show-all-authors": "\u0905\u0927\u093f\u0915 \u0932\u0947\u0916\u0915 \u0909\u092a\u0932\u092c\u094d\u0927 \u0906\u0939\u0947\u0924",
-	"bs-authors-pref-show": "\u0932\u0947\u0916\u0915 \u0926\u0930\u094d\u0936\u0935\u093e",
-	"bs-authors-switch-description": "\u092f\u093e \u092a\u093e\u0928\u093e\u091a\u0947 \u0932\u0947\u0916\u0915 \u0932\u092a\u0935\u093f\u0924\u0947."
+	"bs-authors-desc": "पानाच्या लेखकाचे संक्षिप्त-वर्णनातील चित्र दर्शविते",
+	"prefs-authors": "पानाचे लेखक",
+	"bs-authors-title": "{{PLURAL:$1|{{GENDER:$2|लेखक}}}}",
+	"bs-authors-profileimage": "संक्षिप्त-वर्णनातील चित्र",
+	"bs-authors-profileimage-change": "संक्षिप्त-वर्णनातील चित्र बदला",
+	"bs-authors-show-all-authors": "अधिक लेखक उपलब्ध आहेत",
+	"bs-authors-pref-show": "लेखक दर्शवा",
+	"bs-authors-switch-description": "या पानाचे लेखक लपविते."
 }
