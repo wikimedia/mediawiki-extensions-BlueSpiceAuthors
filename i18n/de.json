@@ -18,5 +18,7 @@
 	"bs-authors-navigation-link-text": "Autoren",
 	"apihelp-bs-pageauthors-store-summary": "Listet alle Autoren einer gegebenen Seite im Kontext auf",
 	"bs-authors-pref-show-help": "Zeigt die Seitenbearbeiter auf den Seiteninformationen in den Werkzeugen zum Qualitätsmanagement an.",
-	"bs-authors-info-dialog": "Autoren dieser Seite"
+	"bs-authors-info-dialog": "Autoren dieser Seite",
+	"bs-authors-info-dialog-grid-column-author": "Autor",
+	"bs-authors-info-dialog-grid-column-type": "Autorentyp"
 }

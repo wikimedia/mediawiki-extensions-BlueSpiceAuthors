@@ -23,29 +23,27 @@
 	bs.authors.info.AuthorsInformationPage.prototype.onInfoPanelSelect = function () {
 		var me = this;
 		if ( me.authorGrid === null ){
-			mw.loader.using( 'ext.bluespice.extjs').done( function () {
-				Ext.onReady( function( ) {
-					me.authorGrid = Ext.create( 'BS.Authors.grid.Authors', {
-						title: false,
-						renderTo: me.$element[0],
-						width: me.$element.width(),
-						height: me.$element.height()
-					});
-				}, me );
-			});
+			mw.loader.using( [ 'ext.oOJSPlus.data', 'oojs-ui.styles.icons-user' ] ).done( function () {
+				bs.api.store.getData( 'pageauthors' ).done( function ( data ) {
+					me.authorGrid = new OOJSPlus.ui.data.GridWidget( {
+						columns: {
+							user_name: {
+								headerText: mw.message( 'bs-authors-info-dialog-grid-column-author' ).text(),
+								type: 'user',
+								showImage: true
+							},
+							author_type: {
+								headerText: mw.message( 'bs-authors-info-dialog-grid-column-type' ).text(),
+								type: "text"
+							}
+						},
+						data: data.results
+					} );
+					me.$element.append( me.authorGrid.$element );
+				} )
+		 } )
 		}
 	}
-
-	bs.authors.info.AuthorsInformationPage.prototype.getData = function () {
-
-		var dfd = new $.Deferred();
-		mw.loader.using( 'ext.bluespice.extjs').done( function () {
-			Ext.require( 'BS.Authors.grid.Authors', function() {
-				dfd.resolve();
-			});
-		});
-		return dfd.promise();
-	};
 
 	registryPageInformation.register( 'authors_infos', bs.authors.info.AuthorsInformationPage );
 
