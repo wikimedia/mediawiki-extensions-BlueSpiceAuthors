@@ -72,10 +72,9 @@
 				"ui/page/bluespice.authors.AuthorsInformationPage.js"
 			],
 			"messages": [
-				"bs-authors-info-dialog"
-			],
-			"styles": [
-				"styles/bluespice.authors.less"
+				"bs-authors-info-dialog",
+				"bs-authors-info-dialog-grid-column-author",
+				"bs-authors-info-dialog-grid-column-type"
 			],
 			"dependencies": [
 				"ext.bluespice"
