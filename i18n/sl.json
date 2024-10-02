@@ -20,5 +20,7 @@
 	"bs-authors-author-type-originator": "Prvotni avtor",
 	"apihelp-bs-pageauthors-store-summary": "Navede vse avtorje strani, podane v kontekstu",
 	"bs-authors-pref-show-help": "Urejevalnikom strani prikaže podatke o strani pod orodji za upravljanje kakovosti.",
-	"bs-authors-info-dialog": "Avtorji te strani"
+	"bs-authors-info-dialog": "Avtorji te strani",
+	"bs-authors-info-dialog-grid-column-author": "Avtor",
+	"bs-authors-info-dialog-grid-column-type": "Tip avtorja"
 }

@@ -15,5 +15,7 @@
 	"bs-authors-navigation-link-text": "Authors",
 	"apihelp-bs-pageauthors-store-summary": "List all authors of a page provided in the context",
 	"bs-authors-pref-show-help": "Shows the page editors on the page information under the quality management tools.",
-	"bs-authors-info-dialog": "Authors of this page"
+	"bs-authors-info-dialog": "Authors of this page",
+	"bs-authors-info-dialog-grid-column-author": "Author",
+	"bs-authors-info-dialog-grid-column-type": "Author type"
 }
