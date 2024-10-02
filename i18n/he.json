@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"Erelon",
 			"Ex-Diktator",
 			"Guycn2",
@@ -23,5 +24,7 @@
 	"bs-authors-author-type-editor": "עורך",
 	"apihelp-bs-pageauthors-store-summary": "רישום כל מחברי הדף כפי שסופקו בהקשר",
 	"bs-authors-pref-show-help": "הצגת עורכי הדף במידע על הדף תחת כלי ניהול איכות.",
-	"bs-authors-info-dialog": "מחברי הדף"
+	"bs-authors-info-dialog": "מחברי הדף",
+	"bs-authors-info-dialog-grid-column-author": "מחבר",
+	"bs-authors-info-dialog-grid-column-type": "סוג מחבר"
 }
