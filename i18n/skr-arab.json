@@ -5,5 +5,7 @@
 		]
 	},
 	"bs-authors-navigation-link-title": "ایں ورقے دے مصنف",
-	"bs-authors-navigation-link-text": "مصنف"
+	"bs-authors-navigation-link-text": "مصنف",
+	"bs-authors-info-dialog-grid-column-author": "مصنف",
+	"bs-authors-info-dialog-grid-column-type": "لکھاری قسم"
 }
