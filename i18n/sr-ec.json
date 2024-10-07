@@ -3,6 +3,7 @@
 		"authors": [
 			"BadDog",
 			"Kizule",
+			"Milicevic01",
 			"Zoranzoki21"
 		]
 	},
@@ -15,5 +16,6 @@
 	"bs-authors-pref-show": "Прикажи ауторе",
 	"bs-authors-navigation-link-title": "Аутори ове странице",
 	"bs-authors-navigation-link-text": "Аутори",
-	"bs-authors-info-dialog": "Аутори ове странице"
+	"bs-authors-info-dialog": "Аутори ове странице",
+	"bs-authors-info-dialog-grid-column-author": "Аутор"
 }

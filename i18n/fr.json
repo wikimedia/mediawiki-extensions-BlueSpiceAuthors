@@ -4,6 +4,7 @@
 			"DreZhsh",
 			"Gomoko",
 			"Pols12",
+			"Terio legale",
 			"Verdy p",
 			"Wladek92",
 			"Zarisi"
@@ -20,5 +21,7 @@
 	"bs-authors-navigation-link-text": "Auteurs",
 	"apihelp-bs-pageauthors-store-summary": "Lister tous les auteurs d’une page fournie dans le contexte",
 	"bs-authors-pref-show-help": "Affiche les éditeurs de la page sur les informations de la page sous les outils de gestion de la qualité.",
-	"bs-authors-info-dialog": "Auteurs de cette page"
+	"bs-authors-info-dialog": "Auteurs de cette page",
+	"bs-authors-info-dialog-grid-column-author": "Auteur",
+	"bs-authors-info-dialog-grid-column-type": "Type d'auteur"
 }
