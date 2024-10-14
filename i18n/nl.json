@@ -17,10 +17,8 @@
 	"bs-authors-profileimage": "Profielafbeelding",
 	"bs-authors-profileimage-change": "Profielafbeelding wijzigen",
 	"bs-authors-show-all-authors": "Meer auteurs beschikbaar",
-	"bs-authors-pref-show": "Auteurs weergeven",
 	"bs-authors-navigation-link-title": "Auteurs van deze pagina",
 	"bs-authors-navigation-link-text": "Auteurs",
 	"apihelp-bs-pageauthors-store-summary": "Geeft een overzicht van alle auteurs van een in de context opgegeven pagina",
-	"bs-authors-pref-show-help": "Toont de paginabewerkers in de pagina-informatie onder de tools voor kwaliteitsbeheer.",
 	"bs-authors-info-dialog": "Auteurs van deze pagina"
 }

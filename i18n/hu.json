@@ -11,10 +11,8 @@
 	"bs-authors-profileimage": "Profilkép",
 	"bs-authors-profileimage-change": "Profilkép módosítása",
 	"bs-authors-show-all-authors": "További szerzők elérhetők",
-	"bs-authors-pref-show": "Szerzők megjelenítése",
 	"bs-authors-navigation-link-title": "A lap szerzői",
 	"bs-authors-navigation-link-text": "Szerzők",
 	"apihelp-bs-pageauthors-store-summary": "Listázza a lap összes szerzőjét a megadott kontextusból",
-	"bs-authors-pref-show-help": "Megjeleníti a lap szerkesztőit a lapinformáción a minőségirányítási eszközök között.",
 	"bs-authors-info-dialog": "A lap szerzői"
 }
