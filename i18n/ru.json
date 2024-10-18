@@ -2,12 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Eroha",
+			"Kareyac",
 			"Meshkov.a",
 			"Movses",
 			"Okras",
 			"Patrick Star",
-			"Vlad5250",
-			"Kareyac"
+			"Vlad5250"
 		]
 	},
 	"bs-authors-desc": "Выводит картинку профиля для авторов страницы",
