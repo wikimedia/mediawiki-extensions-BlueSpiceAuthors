@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Eroha",
+			"Kareyac",
 			"Meshkov.a",
 			"Movses",
 			"Okras",
@@ -23,5 +24,6 @@
 	"bs-authors-author-type-originator": "Оригинальный автор",
 	"bs-authors-author-type-editor": "Редактор",
 	"bs-authors-info-dialog": "Авторы этой страницы",
-	"apihelp-bs-pageauthors-store-summary": "Перечислить всех авторов страницы, указанной в контексте"
+	"apihelp-bs-pageauthors-store-summary": "Перечислить всех авторов страницы, указанной в контексте",
+	"bs-authors-info-dialog-grid-column-author": "Автор"
 }
