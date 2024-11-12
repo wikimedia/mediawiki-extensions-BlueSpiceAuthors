@@ -5,7 +5,8 @@
 			"Hydra",
 			"Liuxinyu970226",
 			"VulpesVulpes825",
-			"落花有意12138"
+			"落花有意12138",
+			"沈澄心"
 		]
 	},
 	"bs-authors-desc": "显示页面作者的个人资料图片",
@@ -17,5 +18,7 @@
 	"bs-authors-navigation-link-title": "此页面的作者",
 	"bs-authors-navigation-link-text": "作者",
 	"apihelp-bs-pageauthors-store-summary": "列出提供在上下文里的所有页面作者",
-	"bs-authors-info-dialog": "此页面的作者"
+	"bs-authors-info-dialog": "此页面的作者",
+	"bs-authors-info-dialog-grid-column-author": "作者",
+	"bs-authors-info-dialog-grid-column-type": "作者类型"
 }
