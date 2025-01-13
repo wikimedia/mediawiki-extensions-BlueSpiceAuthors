@@ -15,5 +15,7 @@
 	"bs-authors-navigation-link-title": "مؤلفو هذه الصفحة",
 	"bs-authors-navigation-link-text": "المؤلفون",
 	"apihelp-bs-pageauthors-store-summary": "سرد جميع مؤلفي الصفحة المتوفرة في السياق",
-	"bs-authors-info-dialog": "مؤلفو هذه الصفحة"
+	"bs-authors-info-dialog": "مؤلفو هذه الصفحة",
+	"bs-authors-info-dialog-grid-column-author": "المؤلف",
+	"bs-authors-info-dialog-grid-column-type": "نوع المؤلف"
 }
