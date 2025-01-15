@@ -21,5 +21,7 @@
 	"bs-authors-author-type-editor": "محرر",
 	"apihelp-bs-pageauthors-store-summary": "سرد جميع مؤلفي الصفحة المتوفرة في السياق",
 	"bs-authors-info-dialog": "مؤلفو هذه الصفحة",
-	"bs-authors-pref-show-help": "يعرض محرري الصفحة على معلومات الصفحة ضمن أدوات إدارة الجودة."
+	"bs-authors-pref-show-help": "يعرض محرري الصفحة على معلومات الصفحة ضمن أدوات إدارة الجودة.",
+	"bs-authors-info-dialog-grid-column-author": "المؤلف",
+	"bs-authors-info-dialog-grid-column-type": "نوع المؤلف"
 }
