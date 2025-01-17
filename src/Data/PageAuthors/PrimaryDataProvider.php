@@ -4,9 +4,9 @@ namespace BlueSpice\Authors\Data\PageAuthors;
 
 use BlueSpice\Authors\AuthorsList;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\Title\Title;
 use MWStake\MediaWiki\Component\DataStore\IPrimaryDataProvider;
 use ReaderParams;
-use Title;
 use Wikimedia\Rdbms\LoadBalancer;
 
 class PrimaryDataProvider implements IPrimaryDataProvider {
