@@ -1,7 +1,7 @@
 {
 	"name": "BlueSpiceAuthors",
 	"license-name": "GPL-3.0-only",
-	"version": "4.2.0-alpha",
+	"version": "5.0.0-alpha",
 	"url": "https://en.wiki.bluespice.com/wiki/Reference:BlueSpiceAuthors",
 	"author": [
 		"Markus Glaser",
@@ -12,7 +12,7 @@
 	"requires": {
 		"MediaWiki": ">= 1.43.0",
 		"extensions": {
-			"BlueSpiceFoundation": ">= 4.5"
+			"BlueSpiceFoundation": ">= 5.0.0"
 		}
 	},
 	"attributes": {
