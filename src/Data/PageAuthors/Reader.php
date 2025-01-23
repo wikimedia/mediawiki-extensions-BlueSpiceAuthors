@@ -2,8 +2,8 @@
 
 namespace BlueSpice\Authors\Data\PageAuthors;
 
-use IContextSource;
 use MediaWiki\Config\Config;
+use MediaWiki\Context\IContextSource;
 use MediaWiki\MediaWikiServices;
 use MWStake\MediaWiki\Component\DataStore\DatabaseReader;
 use MWStake\MediaWiki\Component\DataStore\ReaderParams;
