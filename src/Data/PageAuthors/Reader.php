@@ -23,8 +23,7 @@ class Reader extends DatabaseReader {
 	 * @param IContextSource|null $context
 	 * @param Config|null $config
 	 */
-	public function __construct( $loadBalancer, IContextSource $context = null,
-			Config $config = null ) {
+	public function __construct( $loadBalancer, ?IContextSource $context = null, ?Config $config = null ) {
 		parent::__construct( $loadBalancer, $context, $config );
 		$this->loadBalancer = $loadBalancer;
 	}
