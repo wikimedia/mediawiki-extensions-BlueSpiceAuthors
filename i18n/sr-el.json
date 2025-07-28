@@ -15,5 +15,6 @@
 	"bs-authors-flyout-title": "Autori ove stranice",
 	"bs-authors-author-type-originator": "Originalni autor",
 	"bs-authors-author-type-editor": "Urednik",
-	"bs-authors-info-dialog": "Autori ove stranice"
+	"bs-authors-info-dialog": "Autori ove stranice",
+	"bs-authors-info-dialog-grid-column-author": "Autor"
 }
