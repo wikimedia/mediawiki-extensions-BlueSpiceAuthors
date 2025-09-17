@@ -20,5 +20,7 @@
 	"bs-authors-author-type-editor": "Bruker",
 	"apihelp-bs-pageauthors-store-summary": "Liste opp alle forfatterne av en side gitt i konteksten",
 	"bs-authors-pref-show-help": "Viser sidens forfattere i sideinformasjonen under kvalitetsbehandlingsverktøyene.",
-	"bs-authors-info-dialog": "Forfattere av denne siden"
+	"bs-authors-info-dialog": "Forfattere av denne siden",
+	"bs-authors-info-dialog-grid-column-author": "Forfatter",
+	"bs-authors-info-dialog-grid-column-type": "Forfattertype"
 }
