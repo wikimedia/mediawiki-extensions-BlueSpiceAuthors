@@ -4,6 +4,7 @@
 			"Jopparn",
 			"Lokal Profil",
 			"Mjälten",
+			"Stefan2255",
 			"WikiPhoenix"
 		]
 	},
@@ -19,5 +20,9 @@
 	"bs-authors-navigation-link-text": "Författare",
 	"bs-authors-flyout-title": "Författare till denna sida",
 	"bs-authors-author-type-originator": "Upphovsförfattare",
-	"bs-authors-author-type-editor": "Redaktörer"
+	"bs-authors-author-type-editor": "Redaktörer",
+	"apihelp-bs-pageauthors-store-summary": "Lista alla författare till en sida som anges i kontexten",
+	"bs-authors-info-dialog": "Författarna till denna sida",
+	"bs-authors-info-dialog-grid-column-author": "Författare",
+	"bs-authors-info-dialog-grid-column-type": "Författartyp"
 }
