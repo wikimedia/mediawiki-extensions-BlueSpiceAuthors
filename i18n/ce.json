@@ -17,5 +17,7 @@
 	"bs-authors-flyout-title": "ХӀокху агӀонан авторш",
 	"bs-authors-author-type-originator": "Оригиналан автор",
 	"bs-authors-author-type-editor": "Редактор",
-	"bs-authors-info-dialog": "ХӀокху агӀонан авторш"
+	"bs-authors-info-dialog": "ХӀокху агӀонан авторш",
+	"bs-authors-info-dialog-grid-column-author": "Автор",
+	"bs-authors-info-dialog-grid-column-type": "Авторан тайпа"
 }

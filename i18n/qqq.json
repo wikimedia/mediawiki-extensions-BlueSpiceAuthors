@@ -22,5 +22,7 @@
 	"bs-authors-author-type-editor": "Label for author type in flyout grid. User that edited (contributed to) the page",
 	"apihelp-bs-pageauthors-store-summary": "{{doc-apihelp-summary|bs-pageauthors-store}}",
 	"bs-authors-pref-show-help": "Description for config variable \"AuthorsShow\"",
-	"bs-authors-info-dialog": "Label of page for page information dialog"
+	"bs-authors-info-dialog": "Label of page for page information dialog",
+	"bs-authors-info-dialog-grid-column-author": "Label of column which shows author name",
+	"bs-authors-info-dialog-grid-column-type": "Label of column which shows type of author"
 }
