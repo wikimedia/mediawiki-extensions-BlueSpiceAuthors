@@ -22,5 +22,7 @@
 	"bs-authors-author-type-editor": "Editor",
 	"apihelp-bs-pageauthors-store-summary": "Listar todos os autores de uma página fornecida no contexto",
 	"bs-authors-pref-show-help": "Mostra os editores de página nas informações da página nas ferramentas de gerenciamento de qualidade.",
-	"bs-authors-info-dialog": "Autores desta página"
+	"bs-authors-info-dialog": "Autores desta página",
+	"bs-authors-info-dialog-grid-column-author": "Autor",
+	"bs-authors-info-dialog-grid-column-type": "Tipo de autor"
 }
