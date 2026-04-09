@@ -6,6 +6,7 @@
 			"DDPAT",
 			"Ice bulldog",
 			"Piramidion",
+			"Repakr",
 			"Ата"
 		]
 	},
@@ -24,5 +25,7 @@
 	"bs-authors-author-type-editor": "Редактор",
 	"apihelp-bs-pageauthors-store-summary": "Перелічити всіх авторів сторінки, поданої в контексті",
 	"bs-authors-pref-show-help": "Показує редакторам сторінок інформацію про сторінку в інструментах управління якістю.",
-	"bs-authors-info-dialog": "Автори цієї сторінки"
+	"bs-authors-info-dialog": "Автори цієї сторінки",
+	"bs-authors-info-dialog-grid-column-author": "Автор",
+	"bs-authors-info-dialog-grid-column-type": "Тип автора"
 }
